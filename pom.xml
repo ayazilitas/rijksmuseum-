@@ -53,9 +53,8 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.0.0-M6</version>
                 <configuration>
-                    <testFailureIgnore>true</testFailureIgnore>
+                    <testFailureIgnore>false</testFailureIgnore>
                     <runOrder>Alphabetical</runOrder>
-                    <!--  <rerunFailingTestsCount>1</rerunFailingTestsCount>-->
                     <includes>
                         <include>**/*CukesRunner.java</include>
                         <include>**/*FailedTestRunner.java</include>
