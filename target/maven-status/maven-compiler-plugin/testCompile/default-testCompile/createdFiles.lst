@@ -1,0 +1,11 @@
+Step_Defs\GetCollection_StepDefs.class
+services\InvolvedMaker.class
+Step_Defs\InvolvedMaker_StepDefs.class
+Step_Defs\SearchItems_StepDefs.class
+utilities\ConfigurationReader.class
+services\SortArtists.class
+Step_Defs\Hooks.class
+Step_Defs\sortArtists_StepDefs.class
+services\Get_Collections.class
+runner\CukesRunner.class
+services\SearchItems.class
