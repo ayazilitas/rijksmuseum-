@@ -21,9 +21,7 @@ public class SortArtists {
                 . when().log().all().
                 get("{culture}/collection");
 
-
     }
-
       public void sortDataFromZToA(){
 
         response = given().contentType(ContentType.JSON)
@@ -43,14 +41,12 @@ public class SortArtists {
         assertEquals(firstArtist,jsonPath.getString("artObjects[0].principalOrFirstMaker"));
         assertEquals(lastArtist,jsonPath.getString("artObjects[99].principalOrFirstMaker"));
 
-
     }
     public void verifyArtistFromZToA(String firstArtist, String lastArtist){
 
         JsonPath jsonPath = response.jsonPath();
         assertEquals(firstArtist,jsonPath.getString("artObjects[0].principalOrFirstMaker"));
         assertEquals(lastArtist,jsonPath.getString("artObjects[99].principalOrFirstMaker"));
-
 
     }
 

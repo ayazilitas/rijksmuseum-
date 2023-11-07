@@ -12,7 +12,6 @@ public class Hooks {
     public void setUp() {
         baseURI=ConfigurationReader.get("baseURI");
 
-
     }
 
     @After

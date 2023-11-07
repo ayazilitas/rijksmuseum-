@@ -22,13 +22,8 @@ public class Get_Collections {
                  .queryParam("p",1)
                  .queryParam("ps",100)
                  . when().log().all().
-                 get("{culture}/collection");
-
-
-
-
+                 get("{culture}/collection").prettyPeek();
     }
-
 
 public void verifyCollections(){
    response.then().statusCode(200);

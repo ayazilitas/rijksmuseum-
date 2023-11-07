@@ -17,7 +17,6 @@ Get_Collections getAllCollections=new Get_Collections();
         getAllCollections.verifyCollections();
     }
 
-
     @Given("User should see expected data")
     public void userShouldSeeExpectedData() {
 

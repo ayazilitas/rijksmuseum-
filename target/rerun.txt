@@ -1,3 +1,0 @@
-file:src/test/resources/Features/involvedMaker.feature:8
-file:src/test/resources/Features/sortArtist.feature:10
-file:src/test/resources/Features/searchItems.feature:14

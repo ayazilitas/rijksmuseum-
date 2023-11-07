@@ -1,12 +1,9 @@
 package services;
 
-
 import static io.restassured.RestAssured.*;
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
-
-import java.util.Optional;
 
 import static org.junit.Assert.*;
 
@@ -23,9 +20,6 @@ public class InvolvedMaker {
                 .queryParam("key", key)
                 .queryParam("involvedMaker",Maker).log().all()
                 .when().log().all().get("{culture}/collection");
-
-
-
     }
 
     public void verifyMakerData(Integer statusCode){
@@ -43,9 +37,6 @@ public class InvolvedMaker {
 
        assertEquals("Schelpenvisser, Vincent van Gogh (possibly), 1863 - 1890",jsonPath.getString("artObjects[9].longTitle"));
        assertEquals("11",jsonPath.getString("countFacets.hasimage"));
-
-
-
 
 
     }
