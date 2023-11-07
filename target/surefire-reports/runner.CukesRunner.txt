@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: runner.CukesRunner
 -------------------------------------------------------------------------------
-Tests run: 11, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 13.758 s <<< FAILURE! - in runner.CukesRunner
-GET All Collection.As a User I should get all API collections  Time elapsed: 7.009 s  <<< FAILURE!
+Tests run: 11, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 14.425 s <<< FAILURE! - in runner.CukesRunner
+GET All Collection.As a User I should get all API collections  Time elapsed: 7.453 s  <<< FAILURE!
 org.junit.ComparisonFailure: expected:<Gabri[Ã«]l Metsu> but was:<Gabri[ë]l Metsu>
 	at org.junit.Assert.assertEquals(Assert.java:117)
 	at org.junit.Assert.assertEquals(Assert.java:146)
@@ -10,7 +10,7 @@ org.junit.ComparisonFailure: expected:<Gabri[Ã«]l Metsu> but was:<Gabri[ë]l M
 	at Step_Defs.GetCollection_StepDefs.user_verify_the_status_code_and_body(GetCollection_StepDefs.java:17)
 	at ✽.User verify the status code and body(file:///C:/Users/admin/IdeaProjects/Albert%20Heijn%20Assignment/src/test/resources/Features/Get_Collections.feature:7)
 
-Get all information.As a User I get all information of image  Time elapsed: 0.53 s  <<< FAILURE!
+Get all information.As a User I get all information of image  Time elapsed: 0.889 s  <<< FAILURE!
 java.lang.AssertionError: 
 1 expectation failed.
 Expected content-type "application/json; charset=UTF-8" doesn't match actual content-type "".
@@ -55,7 +55,7 @@ Expected content-type "application/json; charset=UTF-8" doesn't match actual con
 	at Step_Defs.ImageApi_StepDefs.verify_the_status_code_and_body(ImageApi_StepDefs.java:18)
 	at ✽.Verify the status code and body(file:///C:/Users/admin/IdeaProjects/Albert%20Heijn%20Assignment/src/test/resources/Features/imageAPI.feature:6)
 
-Get the maker data.As a user I should not get invalid maker data  Time elapsed: 0.243 s  <<< FAILURE!
+Get the maker data.As a user I should not get invalid maker data  Time elapsed: 0.294 s  <<< FAILURE!
 java.lang.AssertionError: 
 1 expectation failed.
 Expected status code <404> but was <200>.
@@ -98,7 +98,7 @@ Expected status code <404> but was <200>.
 	at Step_Defs.InvolvedMaker_StepDefs.statusCodeShouldBe(InvolvedMaker_StepDefs.java:19)
 	at ✽.Status code should be 404(file:///C:/Users/admin/IdeaProjects/Albert%20Heijn%20Assignment/src/test/resources/Features/involvedMaker.feature:10)
 
-Search the items.As a user I should search any item in data #5  Time elapsed: 0.263 s  <<< FAILURE!
+Search the items.As a user I should search any item in data #5  Time elapsed: 0.18 s  <<< FAILURE!
 java.lang.AssertionError: 
 1 expectation failed.
 Expected status code <404> but was <200>.
@@ -141,7 +141,7 @@ Expected status code <404> but was <200>.
 	at Step_Defs.SearchItems_StepDefs.the_data_status_code_should_be(SearchItems_StepDefs.java:19)
 	at ✽.The data status code should be 404(file:///C:/Users/admin/IdeaProjects/Albert%20Heijn%20Assignment/src/test/resources/Features/searchItems.feature:6)
 
-Sort artists a-z.As a user should sort the artistDesc from z to a  Time elapsed: 1.1 s  <<< FAILURE!
+Sort artists a-z.As a user should sort the artistDesc from z to a  Time elapsed: 1.221 s  <<< FAILURE!
 org.junit.ComparisonFailure: expected:<[Pieter van der Aa (I)]> but was:<[Marinus Zwollo]>
 	at org.junit.Assert.assertEquals(Assert.java:117)
 	at org.junit.Assert.assertEquals(Assert.java:146)
