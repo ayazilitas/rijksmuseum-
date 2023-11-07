@@ -41,7 +41,7 @@ public class InvolvedMaker {
         int actualArtObjectCount = jsonPath.getList("artObjects").size();
         assertEquals(expectedArtObjectCount, actualArtObjectCount);
 
-       assertEquals("Farming Village at Twilight, Vincent van Gogh, 1884",jsonPath.getString("artObjects[9].longTitle"));
+       assertEquals("Schelpenvisser, Vincent van Gogh (possibly), 1863 - 1890",jsonPath.getString("artObjects[9].longTitle"));
        assertEquals("11",jsonPath.getString("countFacets.hasimage"));
 
 

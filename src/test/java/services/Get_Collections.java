@@ -35,8 +35,8 @@ public void verifyCollections(){
 
    JsonPath jsonPath = response.jsonPath();
 
-   assertEquals("anonymous",jsonPath.getString("artObjects[3].principalOrFirstMaker"));
-   assertEquals("784258",jsonPath.getString("count"));
+   assertEquals("Gabriël Metsu",jsonPath.getString("artObjects[3].principalOrFirstMaker"));
+   assertEquals("784261",jsonPath.getString("count"));
 
     int expectedArtObjectCount = 100;
     int actualArtObjectCount = jsonPath.getList("artObjects").size();
@@ -47,7 +47,7 @@ public void verifyCollections(){
     assertEquals(expectedFacets, actualfacets);
 
     assertEquals("8535",jsonPath.getString("countFacets.ondisplay"));
-    assertEquals("The bodhisattva Manjushri, anonymous, c. 800 - c. 900",jsonPath.getString("artObjects[3].longTitle"));
+    assertEquals("The Sick Child, Gabriël Metsu, c. 1664 - c. 1666",jsonPath.getString("artObjects[3].longTitle"));
     assertEquals("normalized32Colors.hex",jsonPath.getString("facets[6].name"));
 
 
