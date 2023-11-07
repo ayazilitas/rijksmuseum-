@@ -1,3 +1,4 @@
+@wip
 Feature: Sort artists a-z
 
   Scenario: As a User I should sort artist from a to z

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runner.CukesRunner" time="10.421" tests="5" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runner.CukesRunner" time="13.576" tests="11" errors="0" skipped="0" failures="7">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.5\bin"/>
-    <property name="sun.java.command" value="C:\Users\admin\AppData\Local\Temp\surefire17283488699716270505\surefirebooter1075893705940779579.jar C:\Users\admin\AppData\Local\Temp\surefire17283488699716270505 2023-11-06T20-42-05_015-jvmRun1 surefire13659682788191892227tmp surefire_06962574481842114990tmp"/>
+    <property name="sun.java.command" value="C:\Users\admin\AppData\Local\Temp\surefire14612735172132979041\surefirebooter9535400640916288381.jar C:\Users\admin\AppData\Local\Temp\surefire14612735172132979041 2023-11-07T08-15-42_573-jvmRun1 surefire9805249801387054874tmp surefire_013581120653529384405tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\admin\IdeaProjects\Albert Heijn Assignment\target\test-classes;C:\Users\admin\IdeaProjects\Albert Heijn Assignment\target\classes;C:\Users\admin\.m2\repository\io\rest-assured\rest-assured\4.5.1\rest-assured-4.5.1.jar;C:\Users\admin\.m2\repository\org\codehaus\groovy\groovy\3.0.9\groovy-3.0.9.jar;C:\Users\admin\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.9\groovy-xml-3.0.9.jar;C:\Users\admin\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\admin\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\admin\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\admin\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\admin\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\admin\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\admin\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\admin\.m2\repository\io\rest-assured\json-path\4.5.1\json-path-4.5.1.jar;C:\Users\admin\.m2\repository\org\codehaus\groovy\groovy-json\3.0.9\groovy-json-3.0.9.jar;C:\Users\admin\.m2\repository\io\rest-assured\rest-assured-common\4.5.1\rest-assured-common-4.5.1.jar;C:\Users\admin\.m2\repository\io\rest-assured\xml-path\4.5.1\xml-path-4.5.1.jar;C:\Users\admin\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\admin\.m2\repository\io\cucumber\cucumber-junit\6.11.0\cucumber-junit-6.11.0.jar;C:\Users\admin\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\admin\.m2\repository\io\cucumber\cucumber-core\6.11.0\cucumber-core-6.11.0.jar;C:\Users\admin\.m2\repository\io\cucumber\cucumber-gherkin\6.11.0\cucumber-gherkin-6.11.0.jar;C:\Users\admin\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.11.0\cucumber-gherkin-messages-6.11.0.jar;C:\Users\admin\.m2\repository\io\cucumber\messages\15.0.0\messages-15.0.0.jar;C:\Users\admin\.m2\repository\io\cucumber\tag-expressions\3.0.1\tag-expressions-3.0.1.jar;C:\Users\admin\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\admin\.m2\repository\io\cucumber\datatable\3.5.0\datatable-3.5.0.jar;C:\Users\admin\.m2\repository\io\cucumber\cucumber-plugin\6.11.0\cucumber-plugin-6.11.0.jar;C:\Users\admin\.m2\repository\io\cucumber\docstring\6.11.0\docstring-6.11.0.jar;C:\Users\admin\.m2\repository\io\cucumber\html-formatter\13.0.0\html-formatter-13.0.0.jar;C:\Users\admin\.m2\repository\io\cucumber\create-meta\4.0.0\create-meta-4.0.0.jar;C:\Users\admin\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\admin\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\admin\.m2\repository\io\cucumber\cucumber-java\6.11.0\cucumber-java-6.11.0.jar;C:\Users\admin\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\admin\AppData\Local\Temp\surefire17283488699716270505\surefirebooter1075893705940779579.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\admin\AppData\Local\Temp\surefire14612735172132979041\surefirebooter9535400640916288381.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.5+9-LTS-191"/>
@@ -57,55 +57,21 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="As a user I should search any item in data #1" classname="Search the items" time="6.196">
+  <testcase name="As a User I should get all API collections" classname="GET All Collection" time="5.335">
+    <failure message="expected:&lt;[anonymous]&gt; but was:&lt;[Gabriël Metsu]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<[anonymous]> but was:<[Gabriël Metsu]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at services.Get_Collections.verifyCollections(Get_Collections.java:38)
+	at Step_Defs.GetCollection_StepDefs.user_verify_the_status_code_and_body(GetCollection_StepDefs.java:17)
+	at ✽.User verify the status code and body(file:///C:/Users/admin/IdeaProjects/Albert%20Heijn%20Assignment/src/test/resources/Features/Get_Collections.feature:7)
+]]></failure>
     <system-out><![CDATA[Request method:	GET
-Request URI:	https://www.rijksmuseum.nl/api/en/collection?key=0fiuZFh4&q=Amsterdam
+Request URI:	https://www.rijksmuseum.nl/api/en/collection?key=0fiuZFh4&p=1&ps=100
 Proxy:			<none>
 Request params:	<none>
 Query params:	key=0fiuZFh4
-				q=Amsterdam
-Form params:	<none>
-Path params:	culture=en
-Headers:		Accept=*/*
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:			<none>
-]]></system-out>
-    <system-err><![CDATA[Nov 06, 2023 8:42:15 PM org.apache.http.impl.client.DefaultHttpClient tryConnect
-INFO: I/O exception (java.net.SocketException) caught when connecting to {s}->https://www.rijksmuseum.nl:443: Connection reset by peer
-Nov 06, 2023 8:42:15 PM org.apache.http.impl.client.DefaultHttpClient tryConnect
-INFO: Retrying connect to {s}->https://www.rijksmuseum.nl:443
-]]></system-err>
-  </testcase>
-  <testcase name="As a user I should search any item in data #2" classname="Search the items" time="0.764">
-    <system-out><![CDATA[Request method:	GET
-Request URI:	https://www.rijksmuseum.nl/api/en/collection?key=0fiuZFh4&q=Harlem
-Proxy:			<none>
-Request params:	<none>
-Query params:	key=0fiuZFh4
-				q=Harlem
-Form params:	<none>
-Path params:	culture=en
-Headers:		Accept=*/*
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:			<none>
-]]></system-out>
-    <system-err><![CDATA[Nov 06, 2023 8:42:17 PM org.apache.http.impl.client.DefaultHttpClient tryConnect
-INFO: I/O exception (java.net.SocketException) caught when connecting to {s}->https://www.rijksmuseum.nl:443: Connection reset by peer
-Nov 06, 2023 8:42:17 PM org.apache.http.impl.client.DefaultHttpClient tryConnect
-INFO: Retrying connect to {s}->https://www.rijksmuseum.nl:443
-]]></system-err>
-  </testcase>
-  <testcase name="As a user I should search any item in data #3" classname="Search the items" time="0.415">
-    <system-out><![CDATA[Request method:	GET
-Request URI:	https://www.rijksmuseum.nl/api/en/collection?key=0fiuZFh4&q=Japan
-Proxy:			<none>
-Request params:	<none>
-Query params:	key=0fiuZFh4
-				q=Japan
+				p=1
+				ps=100
 Form params:	<none>
 Path params:	culture=en
 Headers:		Accept=*/*
@@ -115,13 +81,21 @@ Multiparts:		<none>
 Body:			<none>
 ]]></system-out>
   </testcase>
-  <testcase name="As a user I should search any item in data #4" classname="Search the items" time="0.355">
+  <testcase name="As a user, I should see 100 data on 1 page." classname="GET All Collection" time="1.362">
+    <failure message="expected:&lt;[anonymous]&gt; but was:&lt;[Gabriël Metsu]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<[anonymous]> but was:<[Gabriël Metsu]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at services.Get_Collections.verifyCollections(Get_Collections.java:38)
+	at Step_Defs.GetCollection_StepDefs.user_verify_the_status_code_and_body(GetCollection_StepDefs.java:17)
+	at ✽.User verify the status code and body(file:///C:/Users/admin/IdeaProjects/Albert%20Heijn%20Assignment/src/test/resources/Features/Get_Collections.feature:12)
+]]></failure>
     <system-out><![CDATA[Request method:	GET
-Request URI:	https://www.rijksmuseum.nl/api/en/collection?key=0fiuZFh4&q=Vincent%20van%20Gogh
+Request URI:	https://www.rijksmuseum.nl/api/en/collection?key=0fiuZFh4&p=1&ps=100
 Proxy:			<none>
 Request params:	<none>
 Query params:	key=0fiuZFh4
-				q=Vincent van Gogh
+				p=1
+				ps=100
 Form params:	<none>
 Path params:	culture=en
 Headers:		Accept=*/*
@@ -131,7 +105,43 @@ Multiparts:		<none>
 Body:			<none>
 ]]></system-out>
   </testcase>
-  <testcase name="As a user I should search any item in data #5" classname="Search the items" time="0.28">
+  <testcase name="As a user I should get the maker data" classname="Get the maker data" time="0.338">
+    <failure message="expected:&lt;[Farming Village at Twilight, Vincent van Gogh, 1884]&gt; but was:&lt;[Schelpenvisser, Vincent van Gogh (possibly), 1863 - 1890]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<[Farming Village at Twilight, Vincent van Gogh, 1884]> but was:<[Schelpenvisser, Vincent van Gogh (possibly), 1863 - 1890]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at services.InvolvedMaker.verifyMakerData(InvolvedMaker.java:44)
+	at Step_Defs.InvolvedMaker_StepDefs.userVerifyThatTheStatusCodeShouldBe(InvolvedMaker_StepDefs.java:24)
+	at ✽.User verify that the status code should be 200(file:///C:/Users/admin/IdeaProjects/Albert%20Heijn%20Assignment/src/test/resources/Features/involvedMaker.feature:6)
+]]></failure>
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://www.rijksmuseum.nl/api/en/collection?key=0fiuZFh4&involvedMaker=Vincent%20van%20Gogh
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=0fiuZFh4
+				involvedMaker=Vincent van Gogh
+Form params:	<none>
+Path params:	culture=en
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://www.rijksmuseum.nl/api/en/collection?key=0fiuZFh4&involvedMaker=Vincent%20van%20Gogh
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=0fiuZFh4
+				involvedMaker=Vincent van Gogh
+Form params:	<none>
+Path params:	culture=en
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+]]></system-out>
+  </testcase>
+  <testcase name="As a user I should not get invalid maker data" classname="Get the maker data" time="0.327">
     <failure message="1 expectation failed.&#10;Expected status code &lt;404&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
 1 expectation failed.
 Expected status code <404> but was <200>.
@@ -172,6 +182,141 @@ Expected status code <404> but was <200>.
 	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
 	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
 	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
+	at services.InvolvedMaker.verifyMakerData(InvolvedMaker.java:32)
+	at Step_Defs.InvolvedMaker_StepDefs.statusCodeShouldBe(InvolvedMaker_StepDefs.java:19)
+	at ✽.Status code should be 404(file:///C:/Users/admin/IdeaProjects/Albert%20Heijn%20Assignment/src/test/resources/Features/involvedMaker.feature:10)
+]]></failure>
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://www.rijksmuseum.nl/api/en/collection?key=0fiuZFh4&involvedMaker=Ahmet%20Nederland
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=0fiuZFh4
+				involvedMaker=Ahmet Nederland
+Form params:	<none>
+Path params:	culture=en
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://www.rijksmuseum.nl/api/en/collection?key=0fiuZFh4&involvedMaker=Ahmet%20Nederland
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=0fiuZFh4
+				involvedMaker=Ahmet Nederland
+Form params:	<none>
+Path params:	culture=en
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+]]></system-out>
+  </testcase>
+  <testcase name="As a user I should search any item in data #1" classname="Search the items" time="0.708">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://www.rijksmuseum.nl/api/en/collection?key=0fiuZFh4&q=Amsterdam
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=0fiuZFh4
+				q=Amsterdam
+Form params:	<none>
+Path params:	culture=en
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+]]></system-out>
+  </testcase>
+  <testcase name="As a user I should search any item in data #2" classname="Search the items" time="0.213">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://www.rijksmuseum.nl/api/en/collection?key=0fiuZFh4&q=Harlem
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=0fiuZFh4
+				q=Harlem
+Form params:	<none>
+Path params:	culture=en
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+]]></system-out>
+  </testcase>
+  <testcase name="As a user I should search any item in data #3" classname="Search the items" time="0.472">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://www.rijksmuseum.nl/api/en/collection?key=0fiuZFh4&q=Japan
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=0fiuZFh4
+				q=Japan
+Form params:	<none>
+Path params:	culture=en
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+]]></system-out>
+  </testcase>
+  <testcase name="As a user I should search any item in data #4" classname="Search the items" time="0.425">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://www.rijksmuseum.nl/api/en/collection?key=0fiuZFh4&q=Vincent%20van%20Gogh
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=0fiuZFh4
+				q=Vincent van Gogh
+Form params:	<none>
+Path params:	culture=en
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+]]></system-out>
+  </testcase>
+  <testcase name="As a user I should search any item in data #5" classname="Search the items" time="0.276">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;404&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <404> but was <200>.
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:105)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:499)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:684)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:127)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
+	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
 	at services.SearchItems.verifyItem(SearchItems.java:25)
 	at Step_Defs.SearchItems_StepDefs.the_data_status_code_should_be(SearchItems_StepDefs.java:19)
 	at ✽.The data status code should be 404(file:///C:/Users/admin/IdeaProjects/Albert%20Heijn%20Assignment/src/test/resources/Features/searchItems.feature:6)
@@ -182,6 +327,56 @@ Proxy:			<none>
 Request params:	<none>
 Query params:	key=0fiuZFh4
 				q=Ahmet YAZILITAS
+Form params:	<none>
+Path params:	culture=en
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+]]></system-out>
+  </testcase>
+  <testcase name="As a User I should sort artist from a to z" classname="Sort artists a-z" time="1.708">
+    <failure message="expected:&lt;&apos;s [Lands Werf Amsterdam]&gt; but was:&lt;&apos;s [Gravenhaagsche Courant- en Boekdrukkerij]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<'s [Lands Werf Amsterdam]> but was:<'s [Gravenhaagsche Courant- en Boekdrukkerij]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at services.SortArtists.verifyArtistFromAToZ(SortArtists.java:43)
+	at Step_Defs.sortArtists_StepDefs.verifyThatFirstArtistIsLastArtistIs(sortArtists_StepDefs.java:21)
+	at ✽.Verify that first artist is"'s Lands Werf Amsterdam", last artist is "Raphaël Sadeler (I)"(file:///C:/Users/admin/IdeaProjects/Albert%20Heijn%20Assignment/src/test/resources/Features/sortArtist.feature:7)
+]]></failure>
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://www.rijksmuseum.nl/api/en/collection?key=0fiuZFh4&p=1&ps=100&s=artist
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=0fiuZFh4
+				p=1
+				ps=100
+				s=artist
+Form params:	<none>
+Path params:	culture=en
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+]]></system-out>
+  </testcase>
+  <testcase name="As a user should sort the artistDesc from z to a" classname="Sort artists a-z" time="1.056">
+    <failure message="expected:&lt;[Raphaël Sadeler (I)]&gt; but was:&lt;[Marinus Zwollo]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<[Raphaël Sadeler (I)]> but was:<[Marinus Zwollo]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at services.SortArtists.verifyArtistFromZToA(SortArtists.java:51)
+	at Step_Defs.sortArtists_StepDefs.verifyFirstArtistIsLastArtistIs(sortArtists_StepDefs.java:40)
+	at ✽.Verify first artist is"Raphaël Sadeler (I)", last artist is "'s Lands Werf Amsterdam"(file:///C:/Users/admin/IdeaProjects/Albert%20Heijn%20Assignment/src/test/resources/Features/sortArtist.feature:14)
+]]></failure>
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://www.rijksmuseum.nl/api/en/collection?key=0fiuZFh4&p=1&ps=100&s=artistdesc
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=0fiuZFh4
+				p=1
+				ps=100
+				s=artistdesc
 Form params:	<none>
 Path params:	culture=en
 Headers:		Accept=*/*

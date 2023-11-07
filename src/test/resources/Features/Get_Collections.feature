@@ -1,3 +1,4 @@
+@wip
 Feature: GET All Collection
 
   Scenario: As a User I should get all API collections
