@@ -1,11 +1,13 @@
 C:\Users\admin\IdeaProjects\Albert Heijn Assignment\src\test\java\Step_Defs\SearchItems_StepDefs.java
 C:\Users\admin\IdeaProjects\Albert Heijn Assignment\src\test\java\Step_Defs\GetCollection_StepDefs.java
+C:\Users\admin\IdeaProjects\Albert Heijn Assignment\src\test\java\services\ImageAPI.java
+C:\Users\admin\IdeaProjects\Albert Heijn Assignment\src\test\java\utilities\ConfigurationReader.java
+C:\Users\admin\IdeaProjects\Albert Heijn Assignment\src\test\java\Step_Defs\ImageApi_StepDefs.java
 C:\Users\admin\IdeaProjects\Albert Heijn Assignment\src\test\java\services\SortArtists.java
 C:\Users\admin\IdeaProjects\Albert Heijn Assignment\src\test\java\services\InvolvedMaker.java
 C:\Users\admin\IdeaProjects\Albert Heijn Assignment\src\test\java\Step_Defs\Hooks.java
 C:\Users\admin\IdeaProjects\Albert Heijn Assignment\src\test\java\services\Get_Collections.java
 C:\Users\admin\IdeaProjects\Albert Heijn Assignment\src\test\java\Step_Defs\sortArtists_StepDefs.java
-C:\Users\admin\IdeaProjects\Albert Heijn Assignment\src\test\java\utilities\ConfigurationReader.java
 C:\Users\admin\IdeaProjects\Albert Heijn Assignment\src\test\java\services\SearchItems.java
 C:\Users\admin\IdeaProjects\Albert Heijn Assignment\src\test\java\Step_Defs\InvolvedMaker_StepDefs.java
 C:\Users\admin\IdeaProjects\Albert Heijn Assignment\src\test\java\runner\CukesRunner.java

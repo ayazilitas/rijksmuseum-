@@ -13,7 +13,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/Features",
         glue = "Step_Defs",
         dryRun = false,
-        tags ="@wipr"
+        tags ="@wip"
 
 )
 

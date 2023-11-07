@@ -3,6 +3,8 @@ services\InvolvedMaker.class
 Step_Defs\InvolvedMaker_StepDefs.class
 Step_Defs\SearchItems_StepDefs.class
 utilities\ConfigurationReader.class
+Step_Defs\ImageApi_StepDefs.class
+services\ImageAPI.class
 services\SortArtists.class
 Step_Defs\Hooks.class
 Step_Defs\sortArtists_StepDefs.class

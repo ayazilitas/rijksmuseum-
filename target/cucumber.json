@@ -3,11 +3,11 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2023-11-07T18:51:14.395Z",
+        "start_timestamp": "2023-11-07T20:07:24.663Z",
         "before": [
           {
             "result": {
-              "duration": 862755800,
+              "duration": 766950900,
               "status": "passed"
             },
             "match": {
@@ -16,9 +16,9 @@
           }
         ],
         "line": 4,
-        "name": "As a User I get all information of image",
+        "name": "As a User I should get all API collections",
         "description": "",
-        "id": "get-all-information;as-a-user-i-get-all-information-of-image",
+        "id": "get-all-collection;as-a-user-i-should-get-all-api-collections",
         "after": [
           {
             "result": {
@@ -34,7 +34,90 @@
         "steps": [
           {
             "result": {
-              "duration": 2281098500,
+              "duration": 3468500200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should see all collection",
+            "match": {
+              "location": "Step_Defs.GetCollection_StepDefs.user_should_see_all_collection()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003cGabri[Ã«]l Metsu\u003e but was:\u003cGabri[ë]l Metsu\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat services.Get_Collections.verifyCollections(Get_Collections.java:33)\r\n\tat Step_Defs.GetCollection_StepDefs.user_verify_the_status_code_and_body(GetCollection_StepDefs.java:17)\r\n\tat ✽.User verify the status code and body(file:///C:/Users/admin/IdeaProjects/Albert%20Heijn%20Assignment/src/test/resources/Features/Get_Collections.feature:7)\r\n",
+              "duration": 2451444400,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "User verify the status code and body",
+            "match": {
+              "location": "Step_Defs.GetCollection_StepDefs.user_verify_the_status_code_and_body()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "GET All Collection",
+    "description": "",
+    "id": "get-all-collection",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Get_Collections.feature",
+    "tags": [
+      {
+        "name": "@wip",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-11-07T20:07:31.505Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6980800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step_Defs.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "As a User I get all information of image",
+        "description": "",
+        "id": "get-all-information;as-a-user-i-get-all-information-of-image",
+        "after": [
+          {
+            "result": {
+              "duration": 997400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step_Defs.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 427328100,
               "status": "passed"
             },
             "line": 5,
@@ -46,8 +129,9 @@
           },
           {
             "result": {
-              "duration": 92756400,
-              "status": "passed"
+              "error_message": "java.lang.AssertionError: 1 expectation failed.\nExpected content-type \"application/json; charset\u003dUTF-8\" doesn\u0027t match actual content-type \"\".\n\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)\r\n\tat org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:105)\r\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)\r\n\tat io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:499)\r\n\tat io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)\r\n\tat io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:684)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\r\n\tat org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)\r\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)\r\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)\r\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:51)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)\r\n\tat io.restassured.internal.ResponseSpecificationImpl.contentType(ResponseSpecificationImpl.groovy:443)\r\n\tat io.restassured.internal.ValidatableResponseOptionsImpl.contentType(ValidatableResponseOptionsImpl.java:232)\r\n\tat io.restassured.internal.ValidatableResponseImpl.super$2$contentType(ValidatableResponseImpl.groovy)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\r\n\tat org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)\r\n\tat groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)\r\n\tat groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)\r\n\tat org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)\r\n\tat io.restassured.internal.ValidatableResponseImpl.contentType(ValidatableResponseImpl.groovy:288)\r\n\tat io.restassured.internal.ValidatableResponseImpl.contentType(ValidatableResponseImpl.groovy)\r\n\tat services.ImageAPI.ImageApiVerify(ImageAPI.java:31)\r\n\tat Step_Defs.ImageApi_StepDefs.verify_the_status_code_and_body(ImageApi_StepDefs.java:18)\r\n\tat ✽.Verify the status code and body(file:///C:/Users/admin/IdeaProjects/Albert%20Heijn%20Assignment/src/test/resources/Features/imageAPI.feature:6)\r\n",
+              "duration": 28194000,
+              "status": "failed"
             },
             "line": 6,
             "name": "Verify the status code and body",
@@ -59,7 +143,7 @@
         ],
         "tags": [
           {
-            "name": "@wipr"
+            "name": "@wip"
           }
         ]
       }
@@ -71,7 +155,760 @@
     "uri": "file:src/test/resources/Features/imageAPI.feature",
     "tags": [
       {
-        "name": "@wipr",
+        "name": "@wip",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-11-07T20:07:32.039Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step_Defs.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "As a user I should get the maker data",
+        "description": "",
+        "id": "get-the-maker-data;as-a-user-i-should-get-the-maker-data",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step_Defs.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 282166900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should get \"Vincent van Gogh\" data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Vincent van Gogh\"",
+                  "offset": 16
+                }
+              ],
+              "location": "Step_Defs.InvolvedMaker_StepDefs.user_should_get_data(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 95740300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User verify that the status code should be 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 43
+                }
+              ],
+              "location": "Step_Defs.InvolvedMaker_StepDefs.userVerifyThatTheStatusCodeShouldBe(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-11-07T20:07:32.434Z",
+        "before": [
+          {
+            "result": {
+              "duration": 997000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step_Defs.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "As a user I should not get invalid maker data",
+        "description": "",
+        "id": "get-the-maker-data;as-a-user-i-should-not-get-invalid-maker-data",
+        "after": [
+          {
+            "result": {
+              "duration": 997900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step_Defs.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 218417200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should get \"Ahmet Nederland\" data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Ahmet Nederland\"",
+                  "offset": 16
+                }
+              ],
+              "location": "Step_Defs.InvolvedMaker_StepDefs.user_should_get_data(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: 1 expectation failed.\nExpected status code \u003c404\u003e but was \u003c200\u003e.\n\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)\r\n\tat org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:105)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)\r\n\tat io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:499)\r\n\tat io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)\r\n\tat io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:684)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\r\n\tat org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)\r\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)\r\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)\r\n\tat io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:127)\r\n\tat io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)\r\n\tat io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)\r\n\tat io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)\r\n\tat io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\r\n\tat org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)\r\n\tat groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)\r\n\tat groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)\r\n\tat org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)\r\n\tat io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)\r\n\tat io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)\r\n\tat services.InvolvedMaker.verifyMakerData(InvolvedMaker.java:26)\r\n\tat Step_Defs.InvolvedMaker_StepDefs.statusCodeShouldBe(InvolvedMaker_StepDefs.java:19)\r\n\tat ✽.Status code should be 404(file:///C:/Users/admin/IdeaProjects/Albert%20Heijn%20Assignment/src/test/resources/Features/involvedMaker.feature:10)\r\n",
+              "duration": 6982800,
+              "status": "failed"
+            },
+            "line": 10,
+            "name": "Status code should be 404",
+            "match": {
+              "arguments": [
+                {
+                  "val": "404",
+                  "offset": 22
+                }
+              ],
+              "location": "Step_Defs.InvolvedMaker_StepDefs.statusCodeShouldBe(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "Get the maker data",
+    "description": "",
+    "id": "get-the-maker-data",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/involvedMaker.feature",
+    "tags": [
+      {
+        "name": "@wip",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-11-07T20:07:32.675Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step_Defs.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "As a user I should search any item in data",
+        "description": "",
+        "id": "search-the-items;as-a-user-i-should-search-any-item-in-data;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 993100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step_Defs.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 649897200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should search \"Amsterdam\" by using the key words",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Amsterdam\"",
+                  "offset": 19
+                }
+              ],
+              "location": "Step_Defs.SearchItems_StepDefs.user_should_search_by_using_the_key_words(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2979900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The data status code should be 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 31
+                }
+              ],
+              "location": "Step_Defs.SearchItems_StepDefs.the_data_status_code_should_be(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-11-07T20:07:33.349Z",
+        "before": [
+          {
+            "result": {
+              "duration": 996100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step_Defs.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "As a user I should search any item in data",
+        "description": "",
+        "id": "search-the-items;as-a-user-i-should-search-any-item-in-data;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 997300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step_Defs.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 290851800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should search \"Harlem\" by using the key words",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Harlem\"",
+                  "offset": 19
+                }
+              ],
+              "location": "Step_Defs.SearchItems_StepDefs.user_should_search_by_using_the_key_words(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 997600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The data status code should be 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 31
+                }
+              ],
+              "location": "Step_Defs.SearchItems_StepDefs.the_data_status_code_should_be(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-11-07T20:07:33.654Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step_Defs.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "As a user I should search any item in data",
+        "description": "",
+        "id": "search-the-items;as-a-user-i-should-search-any-item-in-data;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 996100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step_Defs.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 374553700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should search \"Japan\" by using the key words",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Japan\"",
+                  "offset": 19
+                }
+              ],
+              "location": "Step_Defs.SearchItems_StepDefs.user_should_search_by_using_the_key_words(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 997200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The data status code should be 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 31
+                }
+              ],
+              "location": "Step_Defs.SearchItems_StepDefs.the_data_status_code_should_be(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-11-07T20:07:34.052Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step_Defs.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "As a user I should search any item in data",
+        "description": "",
+        "id": "search-the-items;as-a-user-i-should-search-any-item-in-data;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 997400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step_Defs.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 228930500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should search \"Vincent van Gogh\" by using the key words",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Vincent van Gogh\"",
+                  "offset": 19
+                }
+              ],
+              "location": "Step_Defs.SearchItems_StepDefs.user_should_search_by_using_the_key_words(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1001700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The data status code should be 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 31
+                }
+              ],
+              "location": "Step_Defs.SearchItems_StepDefs.the_data_status_code_should_be(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-11-07T20:07:34.308Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step_Defs.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "As a user I should search any item in data",
+        "description": "",
+        "id": "search-the-items;as-a-user-i-should-search-any-item-in-data;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 997700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step_Defs.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 227883300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should search \"Ahmet YAZILITAS\" by using the key words",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Ahmet YAZILITAS\"",
+                  "offset": 19
+                }
+              ],
+              "location": "Step_Defs.SearchItems_StepDefs.user_should_search_by_using_the_key_words(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: 1 expectation failed.\nExpected status code \u003c404\u003e but was \u003c200\u003e.\n\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)\r\n\tat org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:105)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)\r\n\tat io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:499)\r\n\tat io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)\r\n\tat io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:684)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\r\n\tat org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)\r\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)\r\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)\r\n\tat io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:127)\r\n\tat io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)\r\n\tat io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)\r\n\tat io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)\r\n\tat io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\r\n\tat org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)\r\n\tat groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)\r\n\tat groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)\r\n\tat org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)\r\n\tat io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)\r\n\tat io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)\r\n\tat services.SearchItems.verifyItem(SearchItems.java:25)\r\n\tat Step_Defs.SearchItems_StepDefs.the_data_status_code_should_be(SearchItems_StepDefs.java:19)\r\n\tat ✽.The data status code should be 404(file:///C:/Users/admin/IdeaProjects/Albert%20Heijn%20Assignment/src/test/resources/Features/searchItems.feature:6)\r\n",
+              "duration": 4982900,
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "The data status code should be 404",
+            "match": {
+              "arguments": [
+                {
+                  "val": "404",
+                  "offset": 31
+                }
+              ],
+              "location": "Step_Defs.SearchItems_StepDefs.the_data_status_code_should_be(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "Search the items",
+    "description": "",
+    "id": "search-the-items",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/searchItems.feature",
+    "tags": [
+      {
+        "name": "@wip",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-11-07T20:07:34.566Z",
+        "before": [
+          {
+            "result": {
+              "duration": 998500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step_Defs.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "As a User I should sort artist from a to z",
+        "description": "",
+        "id": "sort-artists-a-z;as-a-user-i-should-sort-artist-from-a-to-z",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step_Defs.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1342433700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should sort the data from a to z",
+            "match": {
+              "location": "Step_Defs.sortArtists_StepDefs.user_should_sort_the_data_from_a_to_z()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 999900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "verify the status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 23
+                }
+              ],
+              "location": "Step_Defs.sortArtists_StepDefs.verifyTheStatusCode(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 159567900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Verify that first artist is\"\u0027s Gravenhaagsche Courant- en Boekdrukkerij\", last artist is \"Pieter van der Aa (I)\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u0027s Gravenhaagsche Courant- en Boekdrukkerij\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"Pieter van der Aa (I)\"",
+                  "offset": 89
+                }
+              ],
+              "location": "Step_Defs.sortArtists_StepDefs.verifyThatFirstArtistIsLastArtistIs(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-11-07T20:07:36.090Z",
+        "before": [
+          {
+            "result": {
+              "duration": 997700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step_Defs.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "As a user should sort the artistDesc from z to a",
+        "description": "",
+        "id": "sort-artists-a-z;as-a-user-should-sort-the-artistdesc-from-z-to-a",
+        "after": [
+          {
+            "result": {
+              "duration": 999500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step_Defs.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1014590500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User should sort the collection from z to a",
+            "match": {
+              "location": "Step_Defs.sortArtists_StepDefs.userShouldSortTheCollectionFromZToA()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "verify the status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 23
+                }
+              ],
+              "location": "Step_Defs.sortArtists_StepDefs.verifyTheStatusCode(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Pieter van der Aa (I)]\u003e but was:\u003c[Marinus Zwollo]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat services.SortArtists.verifyArtistFromZToA(SortArtists.java:48)\r\n\tat Step_Defs.sortArtists_StepDefs.verifyFirstArtistIsLastArtistIs(sortArtists_StepDefs.java:40)\r\n\tat ✽.Verify first artist is\"Pieter van der Aa (I)\", last artist is \"\u0027s Gravenhaagsche Courant- en Boekdrukkerij\"(file:///C:/Users/admin/IdeaProjects/Albert%20Heijn%20Assignment/src/test/resources/Features/sortArtist.feature:14)\r\n",
+              "duration": 73802800,
+              "status": "failed"
+            },
+            "line": 14,
+            "name": "Verify first artist is\"Pieter van der Aa (I)\", last artist is \"\u0027s Gravenhaagsche Courant- en Boekdrukkerij\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pieter van der Aa (I)\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"\u0027s Gravenhaagsche Courant- en Boekdrukkerij\"",
+                  "offset": 62
+                }
+              ],
+              "location": "Step_Defs.sortArtists_StepDefs.verifyFirstArtistIsLastArtistIs(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "Sort artists a-z",
+    "description": "",
+    "id": "sort-artists-a-z",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/sortArtist.feature",
+    "tags": [
+      {
+        "name": "@wip",
         "type": "Tag",
         "location": {
           "line": 1,

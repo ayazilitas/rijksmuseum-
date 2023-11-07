@@ -1,0 +1,5 @@
+file:src/test/resources/Features/Get_Collections.feature:4
+file:src/test/resources/Features/involvedMaker.feature:8
+file:src/test/resources/Features/imageAPI.feature:4
+file:src/test/resources/Features/sortArtist.feature:10
+file:src/test/resources/Features/searchItems.feature:14

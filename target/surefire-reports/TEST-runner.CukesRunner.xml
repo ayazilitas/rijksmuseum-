@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runner.CukesRunner" time="13.893" tests="10" errors="0" skipped="0" failures="3">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runner.CukesRunner" time="13.758" tests="11" errors="0" skipped="0" failures="5">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.5\bin"/>
-    <property name="sun.java.command" value="C:\Users\admin\AppData\Local\Temp\surefire13678828185736582007\surefirebooter4810489922394827426.jar C:\Users\admin\AppData\Local\Temp\surefire13678828185736582007 2023-11-07T08-56-47_306-jvmRun1 surefire11601346096724797068tmp surefire_02375516417423671047tmp"/>
+    <property name="sun.java.command" value="C:\Users\admin\AppData\Local\Temp\surefire13550622362428411878\surefirebooter11436262855386867349.jar C:\Users\admin\AppData\Local\Temp\surefire13550622362428411878 2023-11-07T21-07-22_376-jvmRun1 surefire5517304983210994344tmp surefire_014571472943227563968tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\admin\IdeaProjects\Albert Heijn Assignment\target\test-classes;C:\Users\admin\IdeaProjects\Albert Heijn Assignment\target\classes;C:\Users\admin\.m2\repository\io\rest-assured\rest-assured\4.5.1\rest-assured-4.5.1.jar;C:\Users\admin\.m2\repository\org\codehaus\groovy\groovy\3.0.9\groovy-3.0.9.jar;C:\Users\admin\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.9\groovy-xml-3.0.9.jar;C:\Users\admin\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\admin\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\admin\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\admin\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\admin\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\admin\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\admin\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\admin\.m2\repository\io\rest-assured\json-path\4.5.1\json-path-4.5.1.jar;C:\Users\admin\.m2\repository\org\codehaus\groovy\groovy-json\3.0.9\groovy-json-3.0.9.jar;C:\Users\admin\.m2\repository\io\rest-assured\rest-assured-common\4.5.1\rest-assured-common-4.5.1.jar;C:\Users\admin\.m2\repository\io\rest-assured\xml-path\4.5.1\xml-path-4.5.1.jar;C:\Users\admin\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\admin\.m2\repository\io\cucumber\cucumber-junit\6.11.0\cucumber-junit-6.11.0.jar;C:\Users\admin\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\admin\.m2\repository\io\cucumber\cucumber-core\6.11.0\cucumber-core-6.11.0.jar;C:\Users\admin\.m2\repository\io\cucumber\cucumber-gherkin\6.11.0\cucumber-gherkin-6.11.0.jar;C:\Users\admin\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.11.0\cucumber-gherkin-messages-6.11.0.jar;C:\Users\admin\.m2\repository\io\cucumber\messages\15.0.0\messages-15.0.0.jar;C:\Users\admin\.m2\repository\io\cucumber\tag-expressions\3.0.1\tag-expressions-3.0.1.jar;C:\Users\admin\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\admin\.m2\repository\io\cucumber\datatable\3.5.0\datatable-3.5.0.jar;C:\Users\admin\.m2\repository\io\cucumber\cucumber-plugin\6.11.0\cucumber-plugin-6.11.0.jar;C:\Users\admin\.m2\repository\io\cucumber\docstring\6.11.0\docstring-6.11.0.jar;C:\Users\admin\.m2\repository\io\cucumber\html-formatter\13.0.0\html-formatter-13.0.0.jar;C:\Users\admin\.m2\repository\io\cucumber\create-meta\4.0.0\create-meta-4.0.0.jar;C:\Users\admin\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\admin\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\admin\.m2\repository\io\cucumber\cucumber-java\6.11.0\cucumber-java-6.11.0.jar;C:\Users\admin\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\admin\AppData\Local\Temp\surefire13678828185736582007\surefirebooter4810489922394827426.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\admin\AppData\Local\Temp\surefire13550622362428411878\surefirebooter11436262855386867349.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.5+9-LTS-191"/>
@@ -43,7 +43,6 @@
     <property name="localRepository" value="C:\Users\admin\.m2\repository"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\admin\AppData\Local\Temp\"/>
-    <property name="idea.version" value="2021.3.2"/>
     <property name="java.version" value="17.0.5"/>
     <property name="user.dir" value="C:\Users\admin\IdeaProjects\Albert Heijn Assignment"/>
     <property name="os.arch" value="amd64"/>
@@ -57,7 +56,14 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="As a User I should get all API collections" classname="GET All Collection" time="7.065">
+  <testcase name="As a User I should get all API collections" classname="GET All Collection" time="7.009">
+    <failure message="expected:&lt;Gabri[Ã«]l Metsu&gt; but was:&lt;Gabri[ë]l Metsu&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<Gabri[Ã«]l Metsu> but was:<Gabri[ë]l Metsu>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at services.Get_Collections.verifyCollections(Get_Collections.java:33)
+	at Step_Defs.GetCollection_StepDefs.user_verify_the_status_code_and_body(GetCollection_StepDefs.java:17)
+	at ✽.User verify the status code and body(file:///C:/Users/admin/IdeaProjects/Albert%20Heijn%20Assignment/src/test/resources/Features/Get_Collections.feature:7)
+]]></failure>
     <system-out><![CDATA[Request method:	GET
 Request URI:	https://www.rijksmuseum.nl/api/en/collection?key=0fiuZFh4&p=1&ps=100
 Proxy:			<none>
@@ -81,8 +87,8 @@ Strict-Transport-Security: max-age=2592000
 Request-Context: appId=cid-v1:5f69f122-c4a2-4f7d-8b1e-6d66af0e0e99
 X-Powered-By: ASP.NET
 X-Cache: CONFIG_NOCACHE
-X-Azure-Ref: 0xO1JZQAAAABFAdeAtDGcQJM7tDGcV9ZeQU1TMDRFREdFMTgwNwBlM2E1Zjk4OS0xMzJjLTQ3NzQtODA2Yy03YzE3MTZhN2U2MjE=
-Date: Tue, 07 Nov 2023 07:56:53 GMT
+X-Azure-Ref: 0/phKZQAAAAD++iZELznQS7RRhoB0XE1xQlJVMzBFREdFMTExNgBlM2E1Zjk4OS0xMzJjLTQ3NzQtODA2Yy03YzE3MTZhN2U2MjE=
+Date: Tue, 07 Nov 2023 20:07:27 GMT
 
 {
     "elapsedMilliseconds": 0,
@@ -5678,7 +5684,79 @@ Date: Tue, 07 Nov 2023 07:56:53 GMT
 }
 ]]></system-out>
   </testcase>
-  <testcase name="As a user I should get the maker data" classname="Get the maker data" time="0.177">
+  <testcase name="As a User I get all information of image" classname="Get all information" time="0.53">
+    <failure message="1 expectation failed.&#10;Expected content-type &quot;application/json; charset=UTF-8&quot; doesn&apos;t match actual content-type &quot;&quot;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected content-type "application/json; charset=UTF-8" doesn't match actual content-type "".
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:105)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:499)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:684)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:51)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.contentType(ResponseSpecificationImpl.groovy:443)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.contentType(ValidatableResponseOptionsImpl.java:232)
+	at io.restassured.internal.ValidatableResponseImpl.super$2$contentType(ValidatableResponseImpl.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+	at io.restassured.internal.ValidatableResponseImpl.contentType(ValidatableResponseImpl.groovy:288)
+	at io.restassured.internal.ValidatableResponseImpl.contentType(ValidatableResponseImpl.groovy)
+	at services.ImageAPI.ImageApiVerify(ImageAPI.java:31)
+	at Step_Defs.ImageApi_StepDefs.verify_the_status_code_and_body(ImageApi_StepDefs.java:18)
+	at ✽.Verify the status code and body(file:///C:/Users/admin/IdeaProjects/Albert%20Heijn%20Assignment/src/test/resources/Features/imageAPI.feature:6)
+]]></failure>
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://www.rijksmuseum.nl/api/en/collection/SK-A-3262/tiles?key=0fiuZFh4&format=json
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=0fiuZFh4
+				format=json
+Form params:	<none>
+Path params:	culture=en
+				object-number=SK-A-3262
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Tue, 07 Nov 2023 20:07:31 GMT
+Transfer-Encoding: chunked
+Connection: keep-alive
+Strict-Transport-Security: max-age=2592000
+Request-Context: appId=cid-v1:5f69f122-c4a2-4f7d-8b1e-6d66af0e0e99
+X-Powered-By: ASP.NET
+x-azure-ref: 20231107T200731Z-mv3n9vfxyt11bdx9dzr6ydx9t400000006a000000000cuyc
+X-Cache: CONFIG_NOCACHE
+
+{"levels":[{"name":"z0","width":4346,"height":5474,"tiles":[{"x":1,"y":2,"url":"http://lh3.googleusercontent.com/A6mqOqa22uV_Uyk8u0RT7hh6p8wzPAdHiQVYfTHWuFfBicVyfgrMZHTwH3nd57ax6TmPHNbF3u8b3u0Q-XfApyHcJnE=s0"},{"x":3,"y":7,"url":"http://lh3.googleusercontent.com/mc2K2DJZyhlI8FiTDYJWsPJ-HYicjovxBSfqnFV59UxXwuXoFmryo6i-KeEnrwnwsGrACHopS4djeE0IcFYfRXyIEw=s0"},{"x":7,"y":1,"url":"http://lh3.googleusercontent.com/QZCTj7MkGzXAeVFvMCdujgAksO959NvN1iTMsFeVnQbNcyIvJhMcCSMmIJhJuXzHYAckEgRivhal0A_HjdU05xQUfw=s0"},{"x":8,"y":9,"url":"http://lh3.googleusercontent.com/K7q5Nx7cFBfleFdt50YKVUYQ6TefAhAG1xDf21kycYlhrrnhaHSs5m2iwU2zeT46ObAwnE09rO-T415o9kU29zpABsg=s0"},{"x":0,"y":3,"url":"http://lh3.googleusercontent.com/kQxYtBtRrdWxdTPnRrAw46zALVg_xoatShC0QbuujLuRv5WTX7Cg6FYDswms004y3AW8Nc7qHgZNm1mScQaBoaRzMfQW=s0"},{"x":4,"y":10,"url":"http://lh3.googleusercontent.com/KzobEleud9v8SjTK2u2DuHE00Orijac9JHB4cg1URYyyeQHmBCiPkvUddz-tJJGXr25ujAshXjDuXSoXNmwAIRUWlTY=s0"},{"x":5,"y":10,"url":"http://lh3.googleusercontent.com/pPGoXKAp2BgsBOcFLkrLiAJTRr6v55u_6VI7Kz4XHnUamVPTjbeo0gX-BqCGmd70AWYaC8gB8LkI_jD3Jdnf6yka-jg=s0"},{"x":4,"y":0,"url":"http://lh3.googleusercontent.com/kYjxfMDMtwPcDVFejyeS7T-HdP6xO20FC32MBGJsuGQ-36EYRQkWW50QYHOLFyPKSzWpu3aCgQhd7092GajNIGqY2Q=s0"},{"x":4,"y":7,"url":"http://lh3.googleusercontent.com/-1We3Mzf-hMuw1SagnEgDoUb6kKzfc0Pu1Kfjab7vD-0FMuHebkx0477yNuqICcgPrvCGNyIGtdYFOzK6JJ89fvttaw=s0"},{"x":5,"y":0,"url":"http://lh3.googleusercontent.com/0sruC1C9WLjE89fJICboDHOQJ6APpuYFPbY6XSvxbS9-7bD9AsJqhuXAAS77kPzgw5tNNRdIJZwwWl8-wftw1BFrOvY=s0"},{"x":0,"y":4,"url":"http://lh3.googleusercontent.com/oiT3qtiCii5ikoquqH99D1Ds7rnYeuM0n9u3Tbh8nDByCwuXaRKFQKWcDyYlE7IYrjYDEuaHxYQvfEm-WKMcyBjznA=s0"},{"x":5,"y":9,"url":"http://lh3.googleusercontent.com/w-AdMTFIu8ycQg2ama_OEJrwVwyvD0QMSt4-t8qMRzj20EzA57cn1nzPyjP9Fwm-zyFqrxCgUqvdChqqWkAYIDwtTKC_=s0"},{"x":4,"y":2,"url":"http://lh3.googleusercontent.com/c1l0ZwlUXoDNP5bprbw1WTmScE4SstF9i_QqsGZJNq0X1cTld-H3OCdVjrDXhSCQIpXUtN7rNMcIP0RflaC5HAxTxg=s0"},{"x":2,"y":6,"url":"http://lh3.googleusercontent.com/f22iRD2jaiEyjNBZ9Zcgkwgdp6VXJc2u1WNohb2AsCJuqpMrtf6zRC8rJbD213ZoVtJMwh2LFLDEHTkP_kjsVjkvKG4=s0"},{"x":3,"y":9,"url":"http://lh3.googleusercontent.com/UgfTyO9nkuWBujcOEsJ4C4NMMRsP_33Px5fm-0O6O7RoshioGd28zGqrW_omRfr9_2dkK52ZdgvvichLhDRdeEuo2wM=s0"},{"x":5,"y":4,"url":"http://lh3.googleusercontent.com/EyF5yEEaFMYind6qDptDffKnLjrKN6iKix98htG_gUGWWTBlyjX_eOvzeS_joI7-cEm9IUvZSc9cT4qf6U28BD45_q8=s0"},{"x":2,"y":4,"url":"http://lh3.googleusercontent.com/MoR4IJvB6vHKsVP6V_sF8gXjINSd6Xdd__rXr3pBnPW4HS6GVeB5czG0AHDg6z63yiToMOdY4VLuB0riUGuCEbYHsg=s0"},{"x":5,"y":8,"url":"http://lh3.googleusercontent.com/6nfkgyWy9gamKvrPlsBJYHWUyETnWuSza2X3b_UyijEKU9W1ZpdokR_r-CwvlizcTWkPCs4VVIznh5pc4mHLXe_v2Bw=s0"},{"x":7,"y":10,"url":"http://lh3.googleusercontent.com/pNZm-JEyiZwxa-pOHQ2Wv7nWtD65ObiqLjJfghjKKYEfrBeRX3IH12rUDQu-V_AUJomkvD0gESgP0vijipTvvy7S7NFt=s0"},{"x":1,"y":8,"url":"http://lh3.googleusercontent.com/hFuRIGmGpUfnkJaXA_u85PF4PKNQb0Vt5Hgg0Hu5amDETelYlHwpu7rB5ny1tdfSODUrfQoK3g-z3yitK0nBw619Dds=s0"},{"x":6,"y":2,"url":"http://lh3.googleusercontent.com/gH1s5lmVrsyglnKw8Nv2sgNEwH0mpGBs9CCGjZxi9Ns3bTba4ZoXk32UtIpgQT3fdliGkBRoaRcHb1dNPJYvmOOiC63R=s0"},{"x":5,"y":7,"url":"http://lh3.googleusercontent.com/wU4GD-Ez3DKfhD4rfcOUjwPFVVvTLlautHI8pcAw9gvmPc8ca_V5fARLjR4EPfH03iHFxmtz_TrZK4-8T6pr77Khygo=s0"},{"x":7,"y":0,"url":"http://lh3.googleusercontent.com/kwb8vYz60_kXFADepKDyTAD6N1R5W29yQRMFc_Jai-tvkYIBGu3NOAzn0-N9HGc_3ltT3EdEldpl3NsUzbvQaKSFlg=s0"},{"x":0,"y":6,"url":"http://lh3.googleusercontent.com/Uv3astJav04pLApJ2H3j9zM3E35ur9tMOYQNme8006-eRoQrFxwA_3SQNSB9C-wBO2vLOJF6CJyPdWWOK0wQX3cnPu4=s0"},{"x":2,"y":5,"url":"http://lh3.googleusercontent.com/dG5UfGN8WFW-gDCOqX7fDjXG-FlZRbW5cYHjSQ2rh44jwE8eIKwqSKVcAIOlWWFZCe0BaY6PuUoj8V50bokmRnemZps=s0"},{"x":2,"y":7,"url":"http://lh3.googleusercontent.com/swc8CeEs9fXhurIA3zRJ6-1ODyxRl9Okh1xxBagZ0i2443SCNE8J86cnJn3m-DvQqWYsWGMwtpOiPR-K7QOiLGRUJ7E=s0"},{"x":1,"y":7,"url":"http://lh3.googleusercontent.com/bcwux_fl1IdXR8cMXbwYz743jxkYCXbKM-m6UjSMi3zdtqPXDAjJqf2DCEQnQ-WV8I7DuohCeRcf39OTrTPxtLUYFgut=s0"},{"x":8,"y":5,"url":"http://lh3.googleusercontent.com/hTwkVIxR4CH1Wg7XXiF82Rk4FMQbBMx1HLZyKAe1DK9p792aRHmTsA08OOv6MvQ0JsNj9sSPbL2qGLeRnkDKmjwfAmM=s0"},{"x":2,"y":1,"url":"http://lh3.googleusercontent.com/Ex0-zenJVPD6MhXBuOme_UJbVmwlglyrv_XFWgLKoactAKe-0rQuk6axFHytUfSyqUnlLkZzRhm6xRjfuHTlwuu6uQ=s0"},{"x":7,"y":5,"url":"http://lh3.googleusercontent.com/lb66mlMsCB8oofpLhdlHOZjurjBllLYTEykWk7DPgQS45IkcwSHW93Ycgb4uObtf2ycErydENotTSMddNfyGGoCoM-dE=s0"},{"x":5,"y":1,"url":"http://lh3.googleusercontent.com/Hp8fNXxCIRg2c9RL7lyGCdtnKiXZ7BpnfaDzmPTscPJA4HYYWqW1wm3TVQCoUrn2hCPfRCjC43NP4M3Pouj2eXNIFQ=s0"},{"x":6,"y":4,"url":"http://lh3.googleusercontent.com/3CKJTri1xKC81MDvwkDu_e4xchj-YrthiMyZdDFKQtfXfpV2CPwCjZ5UbRCvsaXz-hLEsoFzQeA9AR8ZZdWlUZDeCcTa=s0"},{"x":4,"y":3,"url":"http://lh3.googleusercontent.com/4k7HeN2503AaUBOslmD5Drav5i6F1kYGnzd_TDi4ijK7SSQzySAXlqV9zbShzlnLeV-66FoiKWg3Gb9SdMJb5Mb1BGyW=s0"},{"x":6,"y":0,"url":"http://lh3.googleusercontent.com/0VeKdX_rJOevuNz1ee9atrn1WqRODFIy8OKDm8dp6Uqs8FJxg-6izChQq06nXJ-NJJso9lRrFy5kCj_V293cZXt97sY=s0"},{"x":0,"y":1,"url":"http://lh3.googleusercontent.com/VVXJXqwn1mW_Fp5b5vPYocelxrEC9wYCYlRhec_KYl2slX6M7FZ7pai5wbHnztN0Un9REe2kLBZRUqdDY08NZeywgZM=s0"},{"x":2,"y":10,"url":"http://lh3.googleusercontent.com/Hqa2kha2XoKnxGgY9UWVOrmuODM0oaWxdiW1Hb0mO79xbNxmrTN82eJnOe8mE4sn9Hjx7SanVimB9ibfXdXkHyPj-CY=s0"},{"x":3,"y":3,"url":"http://lh3.googleusercontent.com/qZZk-Rq2yz9iPs-4GcK9b28XKCE4mKYmLvZ7_opkZimdbIbo8FrfnFzG68DWQaEslhhv5RITXAGDng72P2Lkeioqk4yI=s0"},{"x":6,"y":8,"url":"http://lh3.googleusercontent.com/X4uW04Qnvox5ujkWZ3rQEdiggXWkGtxmrgi747AQHQSoJkOfTffcsxJ2QTFomsF61WZe0KjibNZUCXnpvAF1qvRrWFmA=s0"},{"x":2,"y":9,"url":"http://lh3.googleusercontent.com/K4lW-Vg3kiRo6KNx2_WBis0YZ9WPMW-5ZF_zr1lSNkV2RZFg0So8Waui6EwkswbTbAwEiGrFuTlW_GffmrIelIEHjS4=s0"},{"x":1,"y":10,"url":"http://lh3.googleusercontent.com/Iy-DY2fX6adoFtJ6gy1kfRhH3sMDzXJuOc4hbpXBwNuoi5UO7lqTX2oxDVsHcDfn6rvGJTxgWAiB2BsDa2pLqiNvP9Q=s0"},{"x":5,"y":6,"url":"http://lh3.googleusercontent.com/1yk10RjY2p3apz47iu9HiTKpyY-ALsnnC_K22Mx53YKqN8zuzGFz7w8t_qOvBU7mUuJhEjdX5i9cGBU352EpFLLa4OI=s0"},{"x":1,"y":3,"url":"http://lh3.googleusercontent.com/DjO4dyShNCB8OlTa-wXsxsP-XhfTG3ErUMiYAu8wqm5H0mQxQhqP9qqhpp985280aLQfUXsqnSCpKhGf7dmNHkFp6Wkn=s0"},{"x":6,"y":10,"url":"http://lh3.googleusercontent.com/p4nM-lZQLylIRe5x-U2cJOqELqXOVKeB-5MAt9fX8M8872rJBngGdPScw34xT4HiZkqtMreFpLQrnuDuJWENs4zRYeQ=s0"},{"x":5,"y":3,"url":"http://lh3.googleusercontent.com/uP-U1MovpYnQnF1EPBfrR06hnU3EM_w6vQR-kV_eJv-DkzhXTOj1x2-na6nUqKuWhxbea7rCCsu2D3UprHFir22uYjU3=s0"},{"x":6,"y":9,"url":"http://lh3.googleusercontent.com/NBAgkWEXVsVdNYEKdkUbQxNUI5g4NoaQIqr_hngRkGuQamfX1lH2Fz8KuKwJMonpUZvKujxSApsYlmp-43xqyfv2UxU1=s0"},{"x":6,"y":5,"url":"http://lh3.googleusercontent.com/5N-KBlLNy30Q4kruXYezNTdSKhjPACgFlIZcOGq97Ko7YaNgo_jshlCWWnLZfpbhaVKWNoikRfBVGHj1h1TO3IJNgBUf=s0"},{"x":7,"y":2,"url":"http://lh3.googleusercontent.com/D-m4bCfnlOn_Pqj-TMDv1KEUrjutfLBNH1WexwpzuLYnRazgp_jsH9bDEnkDoKFRqrFakffCtqAHVgautfsCGCcgvr0=s0"},{"x":1,"y":9,"url":"http://lh3.googleusercontent.com/N82jHX0dDpeW9I7bOwjOZNdr6Fh_ncd9nQVDZhjiQ52qSqr81qxblZz4ZNwWbzDMilfw9-euHZHtmZ0alU4JN8fngQQ=s0"},{"x":5,"y":2,"url":"http://lh3.googleusercontent.com/JR9wMW2BSeX_9EAHmyUwZ0TNyP7Zs-7N14ymHBgI6CpJcjMOCPIb8tLZRJZLOpsSWD8RNB0dBwjLmc52GHiD5w-0C1IQ=s0"},{"x":1,"y":4,"url":"http://lh3.googleusercontent.com/L3cXmOi69DIsldfIIy0jV2mH0WV82PIpJg_rpiCYGGIl3LRs09m5jNeJcjXJpxBF4D42WrS-g-Bjhx0ha6zbK3wOdQ=s0"},{"x":3,"y":5,"url":"http://lh3.googleusercontent.com/wvpvDP5RYoir1Aq5ceRM7U3WAbGCW98Y1W7PY5xiT4XkGiAqCTZlFalzecmY4yAYPTSjG-7yKENv8xlFizHd7-VdAbM=s0"},{"x":7,"y":3,"url":"http://lh3.googleusercontent.com/5GnxTUvAfI-WnI32UT_HQ61dcfjSnuB5pa9hBCMI41IWXS0wPm4ZY6n8uSDrOy0nCxi_1qR11m5ilkvreD1GZIOaYNs=s0"},{"x":3,"y":6,"url":"http://lh3.googleusercontent.com/urR7Vpjrcu8FG2c8Ug4OruXWUKWDUdZt8XgfSwI53q_5HxvkXGyB-_pxC8cT0OzhV2B3v7zCGW4lBmfqS9j8clzj-ir8=s0"},{"x":2,"y":8,"url":"http://lh3.googleusercontent.com/FEYppSlPt6mhE_2QHQcxB26mdvOyrbx4OIbTXys7aPPBO_GvtVAmmZuQ7iGJ-P2mMIv9Q5mMHltW48RvdQRAuFZ0acU=s0"},{"x":6,"y":3,"url":"http://lh3.googleusercontent.com/sRhaTkTKsVduRh6CZf9Bm0zNBZo9tGudi9VuF5oMQ2DGuLRfAp1RKd11LDrVNyFhcaFt663YDPYrcxsxl9VAQ3cyF2Q=s0"},{"x":4,"y":5,"url":"http://lh3.googleusercontent.com/tX10TbemHbkcSzO5quHlsTXZaPUIoO0jJmBwFPiZ4RJLkp_-lT6JQmF93efCFx7aKJZ2LyY5gWVWBx7WBiY78Ei2TFY=s0"},{"x":1,"y":1,"url":"http://lh3.googleusercontent.com/hHYKxZTfftikQishO1GF6K6XTer-HL1SjcxNPiJfnyQ2CthyuerWmRnFtONHUIRSURWf5oYXxZxsT9dCJCYIfHoEhTAW=s0"},{"x":4,"y":1,"url":"http://lh3.googleusercontent.com/WtAu0TsNgTL_B3M6VH8Bv1uR-3ymybgcVkuQj8TJInDQON8lvMehkxxQ0tjSPh8bFVSGkstKLPnTyWPFIW94EhjQ-bLU=s0"},{"x":1,"y":6,"url":"http://lh3.googleusercontent.com/tNDBdwgwbd0MXLNJL-bonH9d5BrCtrAStIX-IGx3Auc3aNqQbWcdCEoSnY0ZALz5EhXP7hdAVTT0K41Fb0xo5E0LdwHO=s0"},{"x":8,"y":6,"url":"http://lh3.googleusercontent.com/OAqI24C2BOc42og43XvtnVuh4Uor0lv0UvRYKsd603WGHbu9Eb9sODo-bupMJx78QaWojjrqjZ-8jmFHsA0mzelXDSD4=s0"},{"x":0,"y":0,"url":"http://lh3.googleusercontent.com/nvgwbbI7-BOelj8X8ptRXeUjA3h2iyy5cuyZSD9y9Hi35ML8tMF5YJb4z0ABD0wDsvBAT1dS96d1lK0WfeogtppVfvQ=s0"},{"x":4,"y":9,"url":"http://lh3.googleusercontent.com/0lTvAK-rrilpda5JORDHMWYyx0d-Luw0lnCpsFipAFU_pCEnS_W5dGgo3_OEJRC0f0v1OE4JWQ4nmeY6UldXgE8r-Q=s0"},{"x":6,"y":7,"url":"http://lh3.googleusercontent.com/qbxykKrdYDJjgoDVEmVFvdcxTgCKsIOU2k5dOixgt7NWkDLnQFx2c0CeuEEuxZouXByuTfRKSJzkl_z-jOlJxW5u2nKa=s0"},{"x":3,"y":10,"url":"http://lh3.googleusercontent.com/MTi6b_obZIytckxXhgzOf8to4TM8bYZGONnAF0wQEZYprOznNB9gn7DQW7sGJxCtdZslc7y6cwbB_ImCeWCLdu2GdVY=s0"},{"x":5,"y":5,"url":"http://lh3.googleusercontent.com/bq4wGq4H8bGNl782nqYTP_cO0o6FFVYicjhqw4B7sAIzisU_IgF3CRFWPdZDFasxUMmDelfUT45yCw_Onq6SSqEa_pXI=s0"},{"x":2,"y":0,"url":"http://lh3.googleusercontent.com/uHBQbtmE2uKi_lMq65D2XtexcDcMW9lIY7M4YH72ZbNTahlYLhATeeT-2yYhYxU_gsPNfiaXnU4uErom_5lFvbCfTso=s0"},{"x":8,"y":10,"url":"http://lh3.googleusercontent.com/fKAdZCQixi408q0wJwyliSOU-VY4MQuZ5PTBYHIHL0_aoTYAJDtJJyZ6vG6-44yBvNRvtJd40eZKn-ffhwksicADnzw=s0"},{"x":4,"y":6,"url":"http://lh3.googleusercontent.com/vhxNgtFPQGzLXT-LdcSvRSsoaTKUNHid0tNVVLq2AWnnL4Tp6ZO0JD6yOYCj2LgQqx0ESS8_xVfZzW6U2FjqF77u03o=s0"},{"x":8,"y":2,"url":"http://lh3.googleusercontent.com/7De8_lJi8t_bvJIUGQwd8dPoWS3rp0c35fBO4sPssYgLfgLofdq124BmS5cPTNRET9HUjWg_LUPCZDWQqZGBh34RDvIm=s0"},{"x":2,"y":2,"url":"http://lh3.googleusercontent.com/uUFnyy48VtH2duHMUyOvvviQsPmQbfAdPC_5OFhJFg-R6erFCCjkm-zbP-y_2AZDKKY3x8tLq4ixDqcubBx7Y_7XfQ=s0"},{"x":1,"y":5,"url":"http://lh3.googleusercontent.com/XgEpK_Z7FXHji2NvyZsvpWfohqKRno0z3uo_zhg_fiW_vKqwzdldlAuSB_02IQ2rjYPRrrzwaNBNDIjqTF6OOUbI34o=s0"},{"x":3,"y":0,"url":"http://lh3.googleusercontent.com/Fpnrcl37cBPXvra1DpLXMNrZqhfMugou3EBNf8Brt3nXi6v7orjzMD9k4aDV5wvYnjw6H-4Gp8d45jvCkHTur85SCg=s0"},{"x":4,"y":8,"url":"http://lh3.googleusercontent.com/vfSvJCg9VCVlvAlvKIY6XLzgjPmQtg3mhLEIeLWaz2UBNqAvzUYF3ohxRb1l02aPoXY3vm_cTJAX9fBRArWBdDRTTg=s0"},{"x":0,"y":2,"url":"http://lh3.googleusercontent.com/IVb7IMDPunwFcBP7c8WpSvoubAaLW5VPSvlTVXJSuOS2MfWktfoCBdHiof8YbVKX25OMBRTmxe-jjHXzfFFQIaEJXEQ=s0"},{"x":7,"y":9,"url":"http://lh3.googleusercontent.com/Ix9YvBUJOrsmtNnVRLcbF5wb29RMPT1Y3gJMU2kTLXAwChvfZo7-0qjihsZlzERVpMkXMMNfKmtLebtDpO5uNXeIO5w=s0"},{"x":8,"y":4,"url":"http://lh3.googleusercontent.com/hMUB8b3XVhghriiPVK_Ysdhmf18NhWNJncR6xb4EesEs0ulEsYNmGnu9WKOt2gGKv0vu9K1h_zEhYN-PoNJ8wB-EAw=s0"},{"x":8,"y":0,"url":"http://lh3.googleusercontent.com/HROUDQDS4RL9BApI8YD08Ma0ikrsqo4ibM2lToEworjBIsAH3AHsoxNI5L28DKsYz1Z-TkqXs7fJ-DYPQ3DOl-uZpA=s0"},{"x":0,"y":9,"url":"http://lh3.googleusercontent.com/ThQvYOIqescvippnw9tEZ8xSjUkjrNuPReYYbY6C1vprg9E9tKKjCQlZmd5LiH1vITqNi8nF7nHwSj8GZauLPJELXtw=s0"},{"x":3,"y":1,"url":"http://lh3.googleusercontent.com/SZf9uzc4PjTsfFi0kc_ObQa9uFgiSJn3Jf0wzeap_lHyNqopvPNl3-ZBofrXlJ1DvDai0G_xJLGQIC4GNvkMvKTWk7c=s0"},{"x":8,"y":8,"url":"http://lh3.googleusercontent.com/U4S0sJn8vp3c_0gSBJ_2cokikeQJZXZW-QVd0477Z6dOnrDS6JtpcbfWVGRUD5xnAZaK3zB1AGLwkrNOSZeQ3ERPqw=s0"},{"x":0,"y":10,"url":"http://lh3.googleusercontent.com/uctdhHw6kE3iZzMhpwDa_GgLMsCKHOJpocBuOKO7hJD1eTMgz7afcUs-vLE18TtWCvWk9sVhEax108qFLkzo-sozsw=s0"},{"x":0,"y":5,"url":"http://lh3.googleusercontent.com/wfjfxfA7q7dqqyZJfz1Kr-ZJklFplJIvYIr3yIKDdH58lgqYiWXwzjk2zpZsMZaVGQDQfqCa4wyNeeKl_XFQd7cnUDU=s0"},{"x":7,"y":6,"url":"http://lh3.googleusercontent.com/WE5b0RaPmWCs__y5ie48zx52JFYKWEgAolcPTT-mzUO3jsQaexrvskF54nB_yqaDrwP5Gv4cQXz7AfvVlyn_GC8KBA=s0"},{"x":8,"y":7,"url":"http://lh3.googleusercontent.com/HXuYjegVkHuHulvSegJ_BZnmD2pyc7Z6bwvAFam7w2yuKzPG1ROadETRoGWeKR0fp90GE8rFHi95_SuQzwg-tJbTUA=s0"},{"x":8,"y":3,"url":"http://lh3.googleusercontent.com/XrEP1Sz3-fc7eW3Hswwj3_41z-QnMDzeODddnOmk49BqBxDPvKGNh8JtgopkCbwv0dPaEhMWnjr9h_Rgd-DMjEEW2Rw=s0"},{"x":8,"y":1,"url":"http://lh3.googleusercontent.com/dJeSQ1MyHxJO8bKPCcCxO0VhN7I2LNlcX_eGeWLV6UFA_MmQN_i-D4eFkCROjIpdY25eWOAYSZmJyHt8iVGBqNhkUAY=s0"},{"x":1,"y":0,"url":"http://lh3.googleusercontent.com/K87Rj_0YlxMmvDywAtSAPaOX_heQRRodhq1a0xalPXFdI9Z5zbw9ReHZkdIlyQ9UU4ejCZNHsYr5y6HTku0NT5SPfVbQ=s0"},{"x":7,"y":4,"url":"http://lh3.googleusercontent.com/VCrKd1nmBHxfpgu53lsL14ZzXz9pL_Wu6AjZu8W3as16fkjVDXI3Q-WFVwyIeasg75nMpGfkdkwTInAe0FBPDE0P3kA=s0"},{"x":0,"y":8,"url":"http://lh3.googleusercontent.com/i65k4VPsrdSSdTBUWnN51AQt-qG4dRbrGD86kKbp46kBSYpliThW-4_WYnA7gJBf_oCA8C01mYH6eDGu_FzifsMmJw=s0"},{"x":7,"y":7,"url":"http://lh3.googleusercontent.com/VdOSRFVUUE0z67D_42MJX9-RTZHA0_MXKyYc_khwo_NUCESDlM94-FT6Vf6MNLTrX3Gc2A6Pubg0bAXgT4nLDuEeMzk=s0"},{"x":3,"y":2,"url":"http://lh3.googleusercontent.com/YYrjHfJVDpHIseiAv8Lmv21Cx-PPPbEJKVQhE5WzxMzomgkWM1I2C1rka4H6zYvc7i5wWCxg7201rTkmbbvol0SFPw=s0"},{"x":4,"y":4,"url":"http://lh3.googleusercontent.com/Zq4q32RrpIdAVFaUOvQcHUZ5IN_pRK6XNIHyXAu6Bn6zGQsh15lyzrzV0f_rGOQmWr-DZ8hk8XlI8_ZUXOCLcHNJRhQ=s0"},{"x":7,"y":8,"url":"http://lh3.googleusercontent.com/uG-eVt-krt9FLJ87FIfWbJg8yG8enZYGeS5w88-MVHAIVSFUMoX_MLw1gXAKENojOGVnTee_8f4fEkH4IG-XJYtFmQ=s0"},{"x":6,"y":6,"url":"http://lh3.googleusercontent.com/0RC7pwviL77CMYSD52IHGv9avksigfwzsBnBldgwWz6tD4w-gOzYGbF3vtu7HMrSuVI5WAOOj5B4P6n58dctmO5VTL8=s0"},{"x":6,"y":1,"url":"http://lh3.googleusercontent.com/7ZJn9SY7ouQVod2QE7fLP883GZRsdK_MaMB1Cu4G2UnksX34Ti12RLaWAgfUmnUruIBvxi7dWX8pdPDcXovmSslq4fE=s0"},{"x":3,"y":8,"url":"http://lh3.googleusercontent.com/6TDXXhd6WADBel4ZvVXn_548HDkN9GYaMMwQkHsdwypKezOyfAfkUyqW0S8RQ1Q1YsTn0Bdfvom9jYbF13tFhaMLGVc=s0"},{"x":0,"y":7,"url":"http://lh3.googleusercontent.com/4_AhUPJPC6HwpJm_FmGnsX6YYHyKY5ji6bmR2e9bKzNFvEsfFBiygsmeH-nHpfi5qxIgZHDogsjl3Oo2pQUDMOVcedkI=s0"},{"x":3,"y":4,"url":"http://lh3.googleusercontent.com/1uS6AoqQM91zKqGoVLuqAix0r_ReMWS56ItcYEqGdBdHA37UWn9ygHdCbMB_wzYDg8O9EACot5lPepE3oIVFSAdh0PI=s0"},{"x":2,"y":3,"url":"http://lh3.googleusercontent.com/dNa1HMAp0notDRRtJd6Vj_p8jw0IGySlWv4fzm9f1ywR8wWkhwlTaV_ooKPHnC538kKMtawmjdkW2litqj59lGhMRw9g=s0"}]},{"name":"z1","width":2173,"height":2737,"tiles":[{"x":4,"y":2,"url":"http://lh3.googleusercontent.com/tKqC_0tUoWS3ZTnuUSo8RWOVR3lkgN9JmC275SqY4tC9_nYJdtlRLqt2zat6QFdTk-abDOabOnYogSG4tVCEXKUIEsVe=s0"},{"x":4,"y":1,"url":"http://lh3.googleusercontent.com/gN_IS4R-eDmLFIUKnnnPljFwYBYG_2OSYfzdCNOEQh-8a_Co24UuSTEnBhf9YyEzw47b2SOvYwbqisZd1BxOj7E_Xw=s0"},{"x":0,"y":4,"url":"http://lh3.googleusercontent.com/L3jWcaCjNwkKVyF44P32NghUmPvrRtIZYpFbEh3xc-Cj_82llTUSlA3i66HfH_RT40M4gPL6GD9_XygdGUyNPBaUQ1w=s0"},{"x":0,"y":3,"url":"http://lh3.googleusercontent.com/dv0R5waVo8N5GPpc5P-rXUaiDqCfo4w7EH_SSb5bIO1JAH3SiB38m5jeg2e6srCpFweToc79oNpbBcO44zakRXK8WoNv=s0"},{"x":0,"y":1,"url":"http://lh3.googleusercontent.com/CkX1sti5x8XRw-B6QQEhSuhR5I3j2TDAQsc_Kr8FhVibXv-2kv2p3wduWmHLhB1XPmwNLfY_Pw3Gu_OmgfBcEefr22Q=s0"},{"x":0,"y":5,"url":"http://lh3.googleusercontent.com/YL4XmaQzZxHdq9QN7Fdt9UXU1TKYJrIC5-mrMDMmRUQ0xbT7JJ3-0R-gfqDS_DvaRPIW5yoddpDFn3qrZEAO1xFy1kg=s0"},{"x":0,"y":2,"url":"http://lh3.googleusercontent.com/qm0avuK7MXxESWdd6oYC2nVToSn8xAObT2d9gKH5WieQARllf9jcTKvuOBhHzlnnbu-L8j9jFNEjsy7zpfQhXYa-l_Yq=s0"},{"x":3,"y":2,"url":"http://lh3.googleusercontent.com/1DmLFxYco6dZ_6swz600SdMxViUKgmI-4pKbDWT6MmqyI95gCrB7o_sOrm74hi0GcBg127Z6d4sEZ5_xh0lLdF3B_BHe=s0"},{"x":1,"y":5,"url":"http://lh3.googleusercontent.com/PE1XNXE6dn2cyvRoeYrD6pfyEQqOmULYjbED8vCYdX4En2uL2EXjFaXJwCk-lERYpIfkcCrnOo5nC_MnW6197XR0Yk8u=s0"},{"x":2,"y":3,"url":"http://lh3.googleusercontent.com/nfww5D83MG0stWPMChPKa38mmuDBKaw7GDbzaXnGTFohIqx4zkuNoYw4U_YjrMlHDcz0ATFz7bYky3aiCn3J7NkcSA=s0"},{"x":4,"y":4,"url":"http://lh3.googleusercontent.com/dfiZ1SCmXKcyUPH0oJIdUTkd-uiXFJK8Xw4X7p6qpswI3meWQrKQC312T4a2-Qyjz82v9DTRME_a_X7KH_TaB56JQA=s0"},{"x":3,"y":5,"url":"http://lh3.googleusercontent.com/wr3fYI-jeJNonUXYmhnDmxbWNh5p11kMZedf0d6rJ-XK9uZwqS3WIdNMp71c3II2RjjkgijjY7TnLH2y_V050CQxy3Y=s0"},{"x":1,"y":2,"url":"http://lh3.googleusercontent.com/Nnfb5LefdZi1pcyEepbzhiwELrFOFik5g-k5D5P2QI7aZbNpARDRofw1u3QC83VfsTiYbb1JzfZ13dxjcg4yllcI8g=s0"},{"x":4,"y":3,"url":"http://lh3.googleusercontent.com/h2POw7iccQWyDS1LZ_rzM408_MR9T9ZWMfQteMI2gUUdXu3HeKPsWWL1-ADnOkGDTBsOyUnJ2Yrxj63HQxtbM9Pxf48=s0"},{"x":1,"y":4,"url":"http://lh3.googleusercontent.com/lWnlV9wtlZ6zU_VgewuKAAwZvPnsgiaZ1ifbeF8-uWzxu8yS4s_ieue2co3uUckzDViBNLkVW384Exqv5UU36_ZECfRc=s0"},{"x":2,"y":0,"url":"http://lh3.googleusercontent.com/6FhDQnO_PveDtS-dtRf4mj0syVZV0UU3Tl2Rei5e2sPf6H1gtv_fP2TvSOC4svDwlt5nKmLzGx70DVjg93NoZoYZDsyB=s0"},{"x":1,"y":1,"url":"http://lh3.googleusercontent.com/7dG5gGFi1XC_ztzJN9yeeS7cVfZvqfQadJ_KxqlXjdZ7QKYRsEEpgMfZLfmOYG7txqPPfG4MtmKUCQmqrImX2o-lp5w=s0"},{"x":4,"y":0,"url":"http://lh3.googleusercontent.com/_0oM1UNNvnZmCXA-qwDLfYHtoQjHRi3uvJxGsS9MrIeLDK5Erk8UWA-EAYSIv4iVwjsOoOk9Oy--KUgWnyVI07uDCA=s0"},{"x":3,"y":4,"url":"http://lh3.googleusercontent.com/RUkFvvfHFWiQsxYH9nbMpObxEe-ZCG9xAkqGAV32Nipln5mKDcMpE3P-VJxGnt2p0k7lLrBMoGorwfl3mJDvXg9VVuU=s0"},{"x":2,"y":1,"url":"http://lh3.googleusercontent.com/FoPQyoiWHDE-L1qkIWmwg_7Z2AHqAj0kDU9Yd2tB-dDxfGJWlxqvyk8Oxd_W_dRVwd_MwX93HuYla7Kh649mphmay_o=s0"},{"x":2,"y":4,"url":"http://lh3.googleusercontent.com/jTp8rtxM8Tvrn9MmCXP2_R3BNi-1ywRRz5ejfO2yYC9kgZ5Uzt3NsVuerOa0zVbchNh7JDz_NMObvHPdawqRT5A82KE=s0"},{"x":2,"y":2,"url":"http://lh3.googleusercontent.com/bSmb-aJYX_uipUHVwaeJUD633Knss3dFihLDMooEND0TCWSHqKzPjd650HcA7lgNCSG1whv-2iW8hYmqwbry2b3MWPs=s0"},{"x":0,"y":0,"url":"http://lh3.googleusercontent.com/bK2DfoHpxr_RvJkFTZcQL9a04kJdsDxShpQwcxPYUlvas9U__sWdbjvi6P2T-qdykg9J6sWgJ_rnXgiJKeHt1G_NPA=s0"},{"x":4,"y":5,"url":"http://lh3.googleusercontent.com/ZIaifj9NYCE20Wuw4Ua9RTBDfJM8Iy8eD-kIRv7zyMNL7oadPDPkW0dAFIHFALVT3M9HET5J7VboUb5dz8gdTYkypw=s0"},{"x":2,"y":5,"url":"http://lh3.googleusercontent.com/V0U70b0flMR61uti-mWMO63d2RoQM374t5EjoMBY8r8cGWPKh-DyuFWpgZpbJiDjB3RdXLIMXDqvFWberGbxaa6hVg=s0"},{"x":1,"y":3,"url":"http://lh3.googleusercontent.com/_aWpKQsWHBXmiXr0r4r87lXdX5JW0VxeDwsbozox33qmouEOimU-86QByTRtqpxNiW4sceOrfx4SlBI6JC5_x1sqgrvp=s0"},{"x":1,"y":0,"url":"http://lh3.googleusercontent.com/Hjsg7ADGQSGUoSFC8Aoi9IdD7LSebcyjxLJKLD3doCPm0oFxPiNhrsah1oGFcghrqtnhZmRldpJwySuITzR7gVN4d6Y=s0"},{"x":3,"y":1,"url":"http://lh3.googleusercontent.com/6P83erDavKs4EAiKmD8jqB7RH8fxUMWbcGblscC_RycGz7CoFArNbJwFPCK882YYqgPktVc9YTNku4Q091KZsgG_lQA=s0"},{"x":3,"y":3,"url":"http://lh3.googleusercontent.com/eLqJHabzSrpgxLujMevnlwywuLTB_1ZtNdUV9NKRseRyicYKLVzY27La9kqsN49Yuepd6rrsMN1x9oumbx-RCOUsrQ=s0"},{"x":3,"y":0,"url":"http://lh3.googleusercontent.com/6f_j6YNpsy0RI7BgLMp1Lul_aNAYyQBZSKay_x6zZ6T6fCIeU4H8AICbf-e7587wVIfrjxZSEysUMXb6rGxPZK1QzHE=s0"}]},{"name":"z2","width":1086,"height":1368,"tiles":[{"x":2,"y":1,"url":"http://lh3.googleusercontent.com/8MCn6s8bNwsENPeWoJ_SBIyJct49d7_zTPn7WYy2-Jzcsi6lfddgWu0SlFyWkTA3B2HYuf_NOu_32ahcIwYF_5G-5hTg=s0"},{"x":2,"y":0,"url":"http://lh3.googleusercontent.com/nJyW1dhbXKhP2TXvPDTfQ2bIAvXGiwq0REhtX6kLLpzM4zUjf2RuwprimvdpfiOmS-WkXkeJ_GnSciKtPuxvVRMl-LZm=s0"},{"x":0,"y":2,"url":"http://lh3.googleusercontent.com/h2aPXHmsCWYQQSvn6tM4W5BHtNLPTELJ79L0g3Hu6joP27ZganbYOZgL9hhBg4uvfipzEWlb7969h90cTu_HRyuL7Nk=s0"},{"x":0,"y":1,"url":"http://lh3.googleusercontent.com/kwlB6Bi3I_ibO2BN84CIMlnwcMnzeSfQznFgYTtueslX6M6TbknuKihbATCXgw9G4HK9fJqLfLxqhFA_1o-Ex4HC0u0=s0"},{"x":2,"y":2,"url":"http://lh3.googleusercontent.com/bXuSGzVUIAz-bi0pkfxlPwlyc6rhp5k7GY2wNNriqawaDNftpddN5h7DDQXAQUKDVvtRj50AfXmVYAoz0sePqihRT8k=s0"},{"x":1,"y":2,"url":"http://lh3.googleusercontent.com/pmLzF-9Y9BlmxjlwyvZ_S60pFziYTsLNhwq1rwhzcZIY_69-DHY0AfLhyYPkkD7TFw0DpfzUGAV8m4yPBI9uTrt8gVtL=s0"},{"x":0,"y":0,"url":"http://lh3.googleusercontent.com/nCaJpk0CrW-XtleGupNwWcZCYqhNqk89st4LmFvw9pIuBXgIS1uZTmaGpxPsd281rRzmxRsPXQ1eOTEgVz1soorqX8lA=s0"},{"x":1,"y":1,"url":"http://lh3.googleusercontent.com/6MeWni2qj7xVlqWzTRzKfZ21abkr5HEVzB3iFz610oRb47FPr2nna-2gW7NGaeifxrvYbK7FXZ3B2_v8KJ1JKPahXbo=s0"},{"x":1,"y":0,"url":"http://lh3.googleusercontent.com/DrYVJMGRacyLWtBy_p8NeHwstjIQsseQ5DYkN0qT_lJ9JtEYFcSEdkd4LZyuUUxaVIDAjfQG_Hxh8azwLNA30rPnCJo=s0"}]},{"name":"z3","width":543,"height":684,"tiles":[{"x":1,"y":1,"url":"http://lh3.googleusercontent.com/CW-EUKX7S8kUdzeQjOKB76UFJNFnJCGQipBrY8Snt8yMZdHVZSNnYlkC2iADreFWh6yBBXUB6g2ACW-eTmSbbzpiAOle=s0"},{"x":1,"y":0,"url":"http://lh3.googleusercontent.com/nac0uNL9JMjK92hp1uVz-s1e8unYvrBJsF_MJLdIsWOxwv8kFKYQg81CXw9LGxPHbZhAwTGlK8U0yYBnmY4oZ2FHgno=s0"},{"x":0,"y":0,"url":"http://lh3.googleusercontent.com/OFVL51-7KMOFfpVmfTDvevRhZTspfK4K_Cm6VD-RJB7haOfBCcDyOKpvxaQeqkzSK87R5SXHGlImf7AAGmKP39OI7Z7d=s0"},{"x":0,"y":1,"url":"http://lh3.googleusercontent.com/S01uC7dORBKC3snrv6gvX1bmgxHz-BwKY55ZofCiMdPyXzs9eDRuoKm-U0_4VvR0b3CwZP26wcwzowlP1HJpmS9lvbI=s0"}]},{"name":"z5","width":135,"height":171,"tiles":[{"x":0,"y":0,"url":"http://lh3.googleusercontent.com/MDRTVmgFGOjU-mTIz4MhKdmn0UyM5_Ju_7BxLp03IwVJXW_g0_e37NT9stuKS7G1rRegPOMTrmmH7zYXM6BCzAV5Kw=s0"}]},{"name":"z4","width":271,"height":342,"tiles":[{"x":0,"y":0,"url":"http://lh3.googleusercontent.com/iStr1F6fJapOZNz8XIuoaxoZvC_hJc9_qK805jCNO1WoCKb7Oaix23UbECNlz6nDBnlKu_O6ZipEmq43paAKY1EsTD8=s0"}]}]}
+]]></system-out>
+  </testcase>
+  <testcase name="As a user I should get the maker data" classname="Get the maker data" time="0.399">
     <system-out><![CDATA[Request method:	GET
 Request URI:	https://www.rijksmuseum.nl/api/en/collection?key=0fiuZFh4&involvedMaker=Vincent%20van%20Gogh
 Proxy:			<none>
@@ -5707,7 +5785,7 @@ Multiparts:		<none>
 Body:			<none>
 ]]></system-out>
   </testcase>
-  <testcase name="As a user I should not get invalid maker data" classname="Get the maker data" time="0.249">
+  <testcase name="As a user I should not get invalid maker data" classname="Get the maker data" time="0.243">
     <failure message="1 expectation failed.&#10;Expected status code &lt;404&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
 1 expectation failed.
 Expected status code <404> but was <200>.
@@ -5719,8 +5797,6 @@ Expected status code <404> but was <200>.
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
 	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
 	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:105)
-	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
 	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:499)
 	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
@@ -5748,7 +5824,7 @@ Expected status code <404> but was <200>.
 	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
 	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
 	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
-	at services.InvolvedMaker.verifyMakerData(InvolvedMaker.java:32)
+	at services.InvolvedMaker.verifyMakerData(InvolvedMaker.java:26)
 	at Step_Defs.InvolvedMaker_StepDefs.statusCodeShouldBe(InvolvedMaker_StepDefs.java:19)
 	at ✽.Status code should be 404(file:///C:/Users/admin/IdeaProjects/Albert%20Heijn%20Assignment/src/test/resources/Features/involvedMaker.feature:10)
 ]]></failure>
@@ -5780,7 +5856,7 @@ Multiparts:		<none>
 Body:			<none>
 ]]></system-out>
   </testcase>
-  <testcase name="As a user I should search any item in data #1" classname="Search the items" time="0.592">
+  <testcase name="As a user I should search any item in data #1" classname="Search the items" time="0.669">
     <system-out><![CDATA[Request method:	GET
 Request URI:	https://www.rijksmuseum.nl/api/en/collection?key=0fiuZFh4&q=Amsterdam
 Proxy:			<none>
@@ -5796,7 +5872,7 @@ Multiparts:		<none>
 Body:			<none>
 ]]></system-out>
   </testcase>
-  <testcase name="As a user I should search any item in data #2" classname="Search the items" time="0.296">
+  <testcase name="As a user I should search any item in data #2" classname="Search the items" time="0.306">
     <system-out><![CDATA[Request method:	GET
 Request URI:	https://www.rijksmuseum.nl/api/en/collection?key=0fiuZFh4&q=Harlem
 Proxy:			<none>
@@ -5812,7 +5888,7 @@ Multiparts:		<none>
 Body:			<none>
 ]]></system-out>
   </testcase>
-  <testcase name="As a user I should search any item in data #3" classname="Search the items" time="0.493">
+  <testcase name="As a user I should search any item in data #3" classname="Search the items" time="0.389">
     <system-out><![CDATA[Request method:	GET
 Request URI:	https://www.rijksmuseum.nl/api/en/collection?key=0fiuZFh4&q=Japan
 Proxy:			<none>
@@ -5828,7 +5904,7 @@ Multiparts:		<none>
 Body:			<none>
 ]]></system-out>
   </testcase>
-  <testcase name="As a user I should search any item in data #4" classname="Search the items" time="0.272">
+  <testcase name="As a user I should search any item in data #4" classname="Search the items" time="0.254">
     <system-out><![CDATA[Request method:	GET
 Request URI:	https://www.rijksmuseum.nl/api/en/collection?key=0fiuZFh4&q=Vincent%20van%20Gogh
 Proxy:			<none>
@@ -5844,7 +5920,7 @@ Multiparts:		<none>
 Body:			<none>
 ]]></system-out>
   </testcase>
-  <testcase name="As a user I should search any item in data #5" classname="Search the items" time="0.257">
+  <testcase name="As a user I should search any item in data #5" classname="Search the items" time="0.263">
     <failure message="1 expectation failed.&#10;Expected status code &lt;404&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
 1 expectation failed.
 Expected status code <404> but was <200>.
@@ -5902,7 +5978,7 @@ Multiparts:		<none>
 Body:			<none>
 ]]></system-out>
   </testcase>
-  <testcase name="As a User I should sort artist from a to z" classname="Sort artists a-z" time="1.221">
+  <testcase name="As a User I should sort artist from a to z" classname="Sort artists a-z" time="1.53">
     <system-out><![CDATA[Request method:	GET
 Request URI:	https://www.rijksmuseum.nl/api/en/collection?key=0fiuZFh4&p=1&ps=100&s=artist
 Proxy:			<none>
@@ -5920,11 +5996,11 @@ Multiparts:		<none>
 Body:			<none>
 ]]></system-out>
   </testcase>
-  <testcase name="As a user should sort the artistDesc from z to a" classname="Sort artists a-z" time="1.809">
+  <testcase name="As a user should sort the artistDesc from z to a" classname="Sort artists a-z" time="1.1">
     <failure message="expected:&lt;[Pieter van der Aa (I)]&gt; but was:&lt;[Marinus Zwollo]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<[Pieter van der Aa (I)]> but was:<[Marinus Zwollo]>
 	at org.junit.Assert.assertEquals(Assert.java:117)
 	at org.junit.Assert.assertEquals(Assert.java:146)
-	at services.SortArtists.verifyArtistFromZToA(SortArtists.java:51)
+	at services.SortArtists.verifyArtistFromZToA(SortArtists.java:48)
 	at Step_Defs.sortArtists_StepDefs.verifyFirstArtistIsLastArtistIs(sortArtists_StepDefs.java:40)
 	at ✽.Verify first artist is"Pieter van der Aa (I)", last artist is "'s Gravenhaagsche Courant- en Boekdrukkerij"(file:///C:/Users/admin/IdeaProjects/Albert%20Heijn%20Assignment/src/test/resources/Features/sortArtist.feature:14)
 ]]></failure>

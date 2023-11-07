@@ -1,4 +1,4 @@
-@wipr
+@wip
 Feature: Get all information
 
   Scenario: As a User I get all information of image
