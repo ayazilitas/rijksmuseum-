@@ -1,32 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: runner.CukesRunner
 -------------------------------------------------------------------------------
-Tests run: 11, Failures: 7, Errors: 0, Skipped: 0, Time elapsed: 13.576 s <<< FAILURE! - in runner.CukesRunner
-GET All Collection.As a User I should get all API collections  Time elapsed: 5.335 s  <<< FAILURE!
-org.junit.ComparisonFailure: expected:<[anonymous]> but was:<[Gabriël Metsu]>
-	at org.junit.Assert.assertEquals(Assert.java:117)
-	at org.junit.Assert.assertEquals(Assert.java:146)
-	at services.Get_Collections.verifyCollections(Get_Collections.java:38)
-	at Step_Defs.GetCollection_StepDefs.user_verify_the_status_code_and_body(GetCollection_StepDefs.java:17)
-	at ✽.User verify the status code and body(file:///C:/Users/admin/IdeaProjects/Albert%20Heijn%20Assignment/src/test/resources/Features/Get_Collections.feature:7)
-
-GET All Collection.As a user, I should see 100 data on 1 page.  Time elapsed: 1.362 s  <<< FAILURE!
-org.junit.ComparisonFailure: expected:<[anonymous]> but was:<[Gabriël Metsu]>
-	at org.junit.Assert.assertEquals(Assert.java:117)
-	at org.junit.Assert.assertEquals(Assert.java:146)
-	at services.Get_Collections.verifyCollections(Get_Collections.java:38)
-	at Step_Defs.GetCollection_StepDefs.user_verify_the_status_code_and_body(GetCollection_StepDefs.java:17)
-	at ✽.User verify the status code and body(file:///C:/Users/admin/IdeaProjects/Albert%20Heijn%20Assignment/src/test/resources/Features/Get_Collections.feature:12)
-
-Get the maker data.As a user I should get the maker data  Time elapsed: 0.338 s  <<< FAILURE!
-org.junit.ComparisonFailure: expected:<[Farming Village at Twilight, Vincent van Gogh, 1884]> but was:<[Schelpenvisser, Vincent van Gogh (possibly), 1863 - 1890]>
-	at org.junit.Assert.assertEquals(Assert.java:117)
-	at org.junit.Assert.assertEquals(Assert.java:146)
-	at services.InvolvedMaker.verifyMakerData(InvolvedMaker.java:44)
-	at Step_Defs.InvolvedMaker_StepDefs.userVerifyThatTheStatusCodeShouldBe(InvolvedMaker_StepDefs.java:24)
-	at ✽.User verify that the status code should be 200(file:///C:/Users/admin/IdeaProjects/Albert%20Heijn%20Assignment/src/test/resources/Features/involvedMaker.feature:6)
-
-Get the maker data.As a user I should not get invalid maker data  Time elapsed: 0.327 s  <<< FAILURE!
+Tests run: 10, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 19.214 s <<< FAILURE! - in runner.CukesRunner
+Get the maker data.As a user I should not get invalid maker data  Time elapsed: 0.36 s  <<< FAILURE!
 java.lang.AssertionError: 
 1 expectation failed.
 Expected status code <404> but was <200>.
@@ -71,7 +47,7 @@ Expected status code <404> but was <200>.
 	at Step_Defs.InvolvedMaker_StepDefs.statusCodeShouldBe(InvolvedMaker_StepDefs.java:19)
 	at ✽.Status code should be 404(file:///C:/Users/admin/IdeaProjects/Albert%20Heijn%20Assignment/src/test/resources/Features/involvedMaker.feature:10)
 
-Search the items.As a user I should search any item in data #5  Time elapsed: 0.276 s  <<< FAILURE!
+Search the items.As a user I should search any item in data #5  Time elapsed: 0.23 s  <<< FAILURE!
 java.lang.AssertionError: 
 1 expectation failed.
 Expected status code <404> but was <200>.
@@ -114,19 +90,11 @@ Expected status code <404> but was <200>.
 	at Step_Defs.SearchItems_StepDefs.the_data_status_code_should_be(SearchItems_StepDefs.java:19)
 	at ✽.The data status code should be 404(file:///C:/Users/admin/IdeaProjects/Albert%20Heijn%20Assignment/src/test/resources/Features/searchItems.feature:6)
 
-Sort artists a-z.As a User I should sort artist from a to z  Time elapsed: 1.708 s  <<< FAILURE!
-org.junit.ComparisonFailure: expected:<'s [Lands Werf Amsterdam]> but was:<'s [Gravenhaagsche Courant- en Boekdrukkerij]>
-	at org.junit.Assert.assertEquals(Assert.java:117)
-	at org.junit.Assert.assertEquals(Assert.java:146)
-	at services.SortArtists.verifyArtistFromAToZ(SortArtists.java:43)
-	at Step_Defs.sortArtists_StepDefs.verifyThatFirstArtistIsLastArtistIs(sortArtists_StepDefs.java:21)
-	at ✽.Verify that first artist is"'s Lands Werf Amsterdam", last artist is "Raphaël Sadeler (I)"(file:///C:/Users/admin/IdeaProjects/Albert%20Heijn%20Assignment/src/test/resources/Features/sortArtist.feature:7)
-
-Sort artists a-z.As a user should sort the artistDesc from z to a  Time elapsed: 1.056 s  <<< FAILURE!
-org.junit.ComparisonFailure: expected:<[Raphaël Sadeler (I)]> but was:<[Marinus Zwollo]>
+Sort artists a-z.As a user should sort the artistDesc from z to a  Time elapsed: 1.599 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[Pieter van der Aa (I)]> but was:<[Marinus Zwollo]>
 	at org.junit.Assert.assertEquals(Assert.java:117)
 	at org.junit.Assert.assertEquals(Assert.java:146)
 	at services.SortArtists.verifyArtistFromZToA(SortArtists.java:51)
 	at Step_Defs.sortArtists_StepDefs.verifyFirstArtistIsLastArtistIs(sortArtists_StepDefs.java:40)
-	at ✽.Verify first artist is"Raphaël Sadeler (I)", last artist is "'s Lands Werf Amsterdam"(file:///C:/Users/admin/IdeaProjects/Albert%20Heijn%20Assignment/src/test/resources/Features/sortArtist.feature:14)
+	at ✽.Verify first artist is"Pieter van der Aa (I)", last artist is "'s Gravenhaagsche Courant- en Boekdrukkerij"(file:///C:/Users/admin/IdeaProjects/Albert%20Heijn%20Assignment/src/test/resources/Features/sortArtist.feature:14)
 

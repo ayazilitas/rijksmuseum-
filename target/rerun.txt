@@ -1,4 +1,3 @@
-file:src/test/resources/Features/Get_Collections.feature:4:9
-file:src/test/resources/Features/involvedMaker.feature:4:8
-file:src/test/resources/Features/sortArtist.feature:4:10
+file:src/test/resources/Features/involvedMaker.feature:8
+file:src/test/resources/Features/sortArtist.feature:10
 file:src/test/resources/Features/searchItems.feature:14
