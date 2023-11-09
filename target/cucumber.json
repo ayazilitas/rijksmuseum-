@@ -3,11 +3,11 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2023-11-07T20:11:02.187Z",
+        "start_timestamp": "2023-11-08T08:55:33.696Z",
         "before": [
           {
             "result": {
-              "duration": 844283900,
+              "duration": 765952300,
               "status": "passed"
             },
             "match": {
@@ -22,7 +22,7 @@
         "after": [
           {
             "result": {
-              "duration": 996900,
+              "duration": 996700,
               "status": "passed"
             },
             "match": {
@@ -35,7 +35,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4284967100,
+              "duration": 3406958800,
               "status": "passed"
             },
             "line": 6,
@@ -47,8 +47,8 @@
           },
           {
             "result": {
-              "error_message": "org.junit.ComparisonFailure: expected:\u003cGabri[Ã«]l Metsu\u003e but was:\u003cGabri[ë]l Metsu\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat services.Get_Collections.verifyCollections(Get_Collections.java:33)\r\n\tat Step_Defs.GetCollection_StepDefs.user_verify_the_status_code_and_body(GetCollection_StepDefs.java:17)\r\n\tat ✽.User verify the status code and body(file:///C:/Users/admin/IdeaProjects/Albert%20Heijn%20Assignment/src/test/resources/Features/Get_Collections.feature:7)\r\n",
-              "duration": 1903907400,
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Gabriël Metsu]\u003e but was:\u003c[Johan Gregor van der Schardt]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat services.Get_Collections.verifyCollections(Get_Collections.java:33)\r\n\tat Step_Defs.GetCollection_StepDefs.user_verify_the_status_code_and_body(GetCollection_StepDefs.java:17)\r\n\tat ✽.User verify the status code and body(file:///C:/Users/admin/IdeaProjects/Albert%20Heijn%20Assignment/src/test/resources/Features/Get_Collections.feature:7)\r\n",
+              "duration": 2015609600,
               "status": "failed"
             },
             "line": 7,
@@ -86,11 +86,11 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2023-11-07T20:11:09.388Z",
+        "start_timestamp": "2023-11-08T08:55:40.070Z",
         "before": [
           {
             "result": {
-              "duration": 6981000,
+              "duration": 998600,
               "status": "passed"
             },
             "match": {
@@ -105,7 +105,7 @@
         "after": [
           {
             "result": {
-              "duration": 1000100,
+              "duration": 1996200,
               "status": "passed"
             },
             "match": {
@@ -118,7 +118,7 @@
         "steps": [
           {
             "result": {
-              "duration": 412895400,
+              "duration": 512885500,
               "status": "passed"
             },
             "line": 5,
@@ -131,7 +131,7 @@
           {
             "result": {
               "error_message": "java.lang.AssertionError: 1 expectation failed.\nExpected content-type \"application/json; charset\u003dUTF-8\" doesn\u0027t match actual content-type \"\".\n\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)\r\n\tat org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:105)\r\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)\r\n\tat io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:499)\r\n\tat io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)\r\n\tat io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:684)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\r\n\tat org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)\r\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)\r\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)\r\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:51)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)\r\n\tat io.restassured.internal.ResponseSpecificationImpl.contentType(ResponseSpecificationImpl.groovy:443)\r\n\tat io.restassured.internal.ValidatableResponseOptionsImpl.contentType(ValidatableResponseOptionsImpl.java:232)\r\n\tat io.restassured.internal.ValidatableResponseImpl.super$2$contentType(ValidatableResponseImpl.groovy)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\r\n\tat org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)\r\n\tat groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)\r\n\tat groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)\r\n\tat org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)\r\n\tat io.restassured.internal.ValidatableResponseImpl.contentType(ValidatableResponseImpl.groovy:288)\r\n\tat io.restassured.internal.ValidatableResponseImpl.contentType(ValidatableResponseImpl.groovy)\r\n\tat services.ImageAPI.ImageApiVerify(ImageAPI.java:31)\r\n\tat Step_Defs.ImageApi_StepDefs.verify_the_status_code_and_body(ImageApi_StepDefs.java:18)\r\n\tat ✽.Verify the status code and body(file:///C:/Users/admin/IdeaProjects/Albert%20Heijn%20Assignment/src/test/resources/Features/imageAPI.feature:6)\r\n",
-              "duration": 230383600,
+              "duration": 32909700,
               "status": "failed"
             },
             "line": 6,
@@ -169,7 +169,7 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2023-11-07T20:11:10.084Z",
+        "start_timestamp": "2023-11-08T08:55:40.658Z",
         "before": [
           {
             "result": {
@@ -187,7 +187,7 @@
         "after": [
           {
             "result": {
-              "duration": 999200,
+              "duration": 1994100,
               "status": "passed"
             },
             "match": {
@@ -200,7 +200,7 @@
         "steps": [
           {
             "result": {
-              "duration": 359037300,
+              "duration": 317348800,
               "status": "passed"
             },
             "line": 5,
@@ -218,8 +218,9 @@
           },
           {
             "result": {
-              "duration": 107712600,
-              "status": "passed"
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Schelpenvisser, Vincent van Gogh (possibly), 1863 - 1890]\u003e but was:\u003c[De aardappeleters, Vincent van Gogh, 1885]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat services.InvolvedMaker.verifyMakerData(InvolvedMaker.java:38)\r\n\tat Step_Defs.InvolvedMaker_StepDefs.userVerifyThatTheStatusCodeShouldBe(InvolvedMaker_StepDefs.java:24)\r\n\tat ✽.User verify that the status code should be 200(file:///C:/Users/admin/IdeaProjects/Albert%20Heijn%20Assignment/src/test/resources/Features/involvedMaker.feature:6)\r\n",
+              "duration": 117639800,
+              "status": "failed"
             },
             "line": 6,
             "name": "User verify that the status code should be 200",
@@ -242,7 +243,7 @@
         ]
       },
       {
-        "start_timestamp": "2023-11-07T20:11:10.569Z",
+        "start_timestamp": "2023-11-08T08:55:41.121Z",
         "before": [
           {
             "result": {
@@ -260,7 +261,7 @@
         "after": [
           {
             "result": {
-              "duration": 2991500,
+              "duration": 3993400,
               "status": "passed"
             },
             "match": {
@@ -273,7 +274,7 @@
         "steps": [
           {
             "result": {
-              "duration": 253478100,
+              "duration": 243523800,
               "status": "passed"
             },
             "line": 9,
@@ -292,7 +293,7 @@
           {
             "result": {
               "error_message": "java.lang.AssertionError: 1 expectation failed.\nExpected status code \u003c404\u003e but was \u003c200\u003e.\n\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)\r\n\tat org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:105)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)\r\n\tat io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:499)\r\n\tat io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)\r\n\tat io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:684)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\r\n\tat org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)\r\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)\r\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)\r\n\tat io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:127)\r\n\tat io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)\r\n\tat io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)\r\n\tat io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)\r\n\tat io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\r\n\tat org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)\r\n\tat groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)\r\n\tat groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)\r\n\tat org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)\r\n\tat io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)\r\n\tat io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)\r\n\tat services.InvolvedMaker.verifyMakerData(InvolvedMaker.java:26)\r\n\tat Step_Defs.InvolvedMaker_StepDefs.statusCodeShouldBe(InvolvedMaker_StepDefs.java:19)\r\n\tat ✽.Status code should be 404(file:///C:/Users/admin/IdeaProjects/Albert%20Heijn%20Assignment/src/test/resources/Features/involvedMaker.feature:10)\r\n",
-              "duration": 10936900,
+              "duration": 14958800,
               "status": "failed"
             },
             "line": 10,
@@ -336,11 +337,11 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2023-11-07T20:11:10.869Z",
+        "start_timestamp": "2023-11-08T08:55:41.420Z",
         "before": [
           {
             "result": {
-              "duration": 999200,
+              "duration": 995300,
               "status": "passed"
             },
             "match": {
@@ -355,7 +356,6 @@
         "after": [
           {
             "result": {
-              "duration": 996300,
               "status": "passed"
             },
             "match": {
@@ -368,7 +368,7 @@
         "steps": [
           {
             "result": {
-              "duration": 519758100,
+              "duration": 1516513700,
               "status": "passed"
             },
             "line": 5,
@@ -386,7 +386,7 @@
           },
           {
             "result": {
-              "duration": 997400,
+              "duration": 997000,
               "status": "passed"
             },
             "line": 6,
@@ -410,11 +410,10 @@
         ]
       },
       {
-        "start_timestamp": "2023-11-07T20:11:11.411Z",
+        "start_timestamp": "2023-11-08T08:55:42.950Z",
         "before": [
           {
             "result": {
-              "duration": 998200,
               "status": "passed"
             },
             "match": {
@@ -429,7 +428,7 @@
         "after": [
           {
             "result": {
-              "duration": 1991100,
+              "duration": 996600,
               "status": "passed"
             },
             "match": {
@@ -442,7 +441,7 @@
         "steps": [
           {
             "result": {
-              "duration": 190247500,
+              "duration": 182050300,
               "status": "passed"
             },
             "line": 5,
@@ -460,7 +459,7 @@
           },
           {
             "result": {
-              "duration": 999200,
+              "duration": 1995100,
               "status": "passed"
             },
             "line": 6,
@@ -484,7 +483,7 @@
         ]
       },
       {
-        "start_timestamp": "2023-11-07T20:11:11.627Z",
+        "start_timestamp": "2023-11-08T08:55:43.164Z",
         "before": [
           {
             "result": {
@@ -502,7 +501,7 @@
         "after": [
           {
             "result": {
-              "duration": 995500,
+              "duration": 996700,
               "status": "passed"
             },
             "match": {
@@ -515,7 +514,7 @@
         "steps": [
           {
             "result": {
-              "duration": 333339200,
+              "duration": 1813831500,
               "status": "passed"
             },
             "line": 5,
@@ -533,7 +532,7 @@
           },
           {
             "result": {
-              "duration": 1994900,
+              "duration": 996600,
               "status": "passed"
             },
             "line": 6,
@@ -557,11 +556,11 @@
         ]
       },
       {
-        "start_timestamp": "2023-11-07T20:11:11.997Z",
+        "start_timestamp": "2023-11-08T08:55:45.012Z",
         "before": [
           {
             "result": {
-              "duration": 996600,
+              "duration": 997700,
               "status": "passed"
             },
             "match": {
@@ -576,6 +575,7 @@
         "after": [
           {
             "result": {
+              "duration": 1993800,
               "status": "passed"
             },
             "match": {
@@ -588,7 +588,7 @@
         "steps": [
           {
             "result": {
-              "duration": 280951700,
+              "duration": 202317000,
               "status": "passed"
             },
             "line": 5,
@@ -606,6 +606,7 @@
           },
           {
             "result": {
+              "duration": 1995000,
               "status": "passed"
             },
             "line": 6,
@@ -629,7 +630,7 @@
         ]
       },
       {
-        "start_timestamp": "2023-11-07T20:11:12.292Z",
+        "start_timestamp": "2023-11-08T08:55:45.242Z",
         "before": [
           {
             "result": {
@@ -647,7 +648,6 @@
         "after": [
           {
             "result": {
-              "duration": 996500,
               "status": "passed"
             },
             "match": {
@@ -660,7 +660,7 @@
         "steps": [
           {
             "result": {
-              "duration": 160243400,
+              "duration": 221956800,
               "status": "passed"
             },
             "line": 5,
@@ -678,16 +678,15 @@
           },
           {
             "result": {
-              "error_message": "java.lang.AssertionError: 1 expectation failed.\nExpected status code \u003c404\u003e but was \u003c200\u003e.\n\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)\r\n\tat org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:105)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)\r\n\tat io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:499)\r\n\tat io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)\r\n\tat io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:684)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\r\n\tat org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)\r\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)\r\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)\r\n\tat io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:127)\r\n\tat io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)\r\n\tat io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)\r\n\tat io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)\r\n\tat io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\r\n\tat org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)\r\n\tat groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)\r\n\tat groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)\r\n\tat org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)\r\n\tat io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)\r\n\tat io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)\r\n\tat services.SearchItems.verifyItem(SearchItems.java:25)\r\n\tat Step_Defs.SearchItems_StepDefs.the_data_status_code_should_be(SearchItems_StepDefs.java:19)\r\n\tat ✽.The data status code should be 404(file:///C:/Users/admin/IdeaProjects/Albert%20Heijn%20Assignment/src/test/resources/Features/searchItems.feature:6)\r\n",
-              "duration": 3992900,
-              "status": "failed"
+              "duration": 992000,
+              "status": "passed"
             },
             "line": 6,
-            "name": "The data status code should be 404",
+            "name": "The data status code should be 200",
             "match": {
               "arguments": [
                 {
-                  "val": "404",
+                  "val": "200",
                   "offset": 31
                 }
               ],
@@ -723,11 +722,10 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2023-11-07T20:11:12.482Z",
+        "start_timestamp": "2023-11-08T08:55:45.479Z",
         "before": [
           {
             "result": {
-              "duration": 994000,
               "status": "passed"
             },
             "match": {
@@ -754,7 +752,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1346249100,
+              "duration": 1078745000,
               "status": "passed"
             },
             "line": 5,
@@ -766,7 +764,7 @@
           },
           {
             "result": {
-              "duration": 995000,
+              "duration": 1997200,
               "status": "passed"
             },
             "line": 6,
@@ -784,8 +782,9 @@
           },
           {
             "result": {
-              "duration": 165638000,
-              "status": "passed"
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Pieter van der Aa (I)]\u003e but was:\u003c[anonymous]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat services.SortArtists.verifyArtistFromAToZ(SortArtists.java:42)\r\n\tat Step_Defs.sortArtists_StepDefs.verifyThatFirstArtistIsLastArtistIs(sortArtists_StepDefs.java:21)\r\n\tat ✽.Verify that first artist is\"\u0027s Gravenhaagsche Courant- en Boekdrukkerij\", last artist is \"Pieter van der Aa (I)\"(file:///C:/Users/admin/IdeaProjects/Albert%20Heijn%20Assignment/src/test/resources/Features/sortArtist.feature:7)\r\n",
+              "duration": 248333000,
+              "status": "failed"
             },
             "line": 7,
             "name": "Verify that first artist is\"\u0027s Gravenhaagsche Courant- en Boekdrukkerij\", last artist is \"Pieter van der Aa (I)\"",
@@ -812,7 +811,7 @@
         ]
       },
       {
-        "start_timestamp": "2023-11-07T20:11:14.011Z",
+        "start_timestamp": "2023-11-08T08:55:46.836Z",
         "before": [
           {
             "result": {
@@ -830,7 +829,6 @@
         "after": [
           {
             "result": {
-              "duration": 996900,
               "status": "passed"
             },
             "match": {
@@ -843,7 +841,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1100407100,
+              "duration": 1013449400,
               "status": "passed"
             },
             "line": 12,
@@ -855,7 +853,7 @@
           },
           {
             "result": {
-              "duration": 1993800,
+              "duration": 1996700,
               "status": "passed"
             },
             "line": 13,
@@ -873,8 +871,8 @@
           },
           {
             "result": {
-              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Pieter van der Aa (I)]\u003e but was:\u003c[Marinus Zwollo]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat services.SortArtists.verifyArtistFromZToA(SortArtists.java:48)\r\n\tat Step_Defs.sortArtists_StepDefs.verifyFirstArtistIsLastArtistIs(sortArtists_StepDefs.java:40)\r\n\tat ✽.Verify first artist is\"Pieter van der Aa (I)\", last artist is \"\u0027s Gravenhaagsche Courant- en Boekdrukkerij\"(file:///C:/Users/admin/IdeaProjects/Albert%20Heijn%20Assignment/src/test/resources/Features/sortArtist.feature:14)\r\n",
-              "duration": 109703700,
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Pieter van der Aa (I)]\u003e but was:\u003c[Zyg-Brunner]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat services.SortArtists.verifyArtistFromZToA(SortArtists.java:48)\r\n\tat Step_Defs.sortArtists_StepDefs.verifyFirstArtistIsLastArtistIs(sortArtists_StepDefs.java:40)\r\n\tat ✽.Verify first artist is\"Pieter van der Aa (I)\", last artist is \"\u0027s Gravenhaagsche Courant- en Boekdrukkerij\"(file:///C:/Users/admin/IdeaProjects/Albert%20Heijn%20Assignment/src/test/resources/Features/sortArtist.feature:14)\r\n",
+              "duration": 113085700,
               "status": "failed"
             },
             "line": 14,

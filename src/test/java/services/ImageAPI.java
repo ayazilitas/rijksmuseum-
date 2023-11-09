@@ -20,7 +20,7 @@ public class ImageAPI {
                 .queryParam("key", key)
                 .queryParam("format", "json")
                 .when().log().all().
-                get("{culture}/collection/{object-number}/tiles").prettyPeek();
+                get("{culture}/collection/{object-number}/tiles");
 
     }
 

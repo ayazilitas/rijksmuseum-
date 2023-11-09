@@ -16,13 +16,18 @@ public class Get_Collections {
  Response response;
     public void allCollections() {
 
-         response = given().contentType(ContentType.JSON)
-                 .pathParam("culture","en")
-                 .queryParam("key", key)
-                 .queryParam("p",1)
-                 .queryParam("ps",100)
-                 . when().log().all().
-                 get("{culture}/collection").prettyPeek();
+
+        try {
+            response = given().contentType(ContentType.JSON)
+                    .pathParam("culture","en")
+                    .queryParam("key", key)
+                    .queryParam("p",1)
+                    .queryParam("ps",100)
+                    . when().log().all().
+                    get("{culture}/collection");
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
 public void verifyCollections(){
